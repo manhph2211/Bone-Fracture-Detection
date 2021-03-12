@@ -65,7 +65,7 @@ were created: sharpness, brightness, contrast, and mirror symmetry.
 
 ## 3.2 Network 
 
-![alt text](https://github.com/manhph2211/Bone-Fracture-Detection/blob/main/img.png)
+<img src="https://github.com/manhph2211/Bone-Fracture-Detection/blob/main/img.png" width="900" height="600">
 
 ### 3.3 Backbone one - Resnet
 
