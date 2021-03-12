@@ -3,7 +3,7 @@ Data augmentation and Preprocessing for bone fracture detection in Xray images :
 
 ## 1. Distal radius fractures
 
-![alt text](https://www.gchandtherapy.com/wp-content/uploads/2017/04/fractureddistalradius.png)
+![alt text](https://www.gchandtherapy.com/wp-content/uploads/2017/04/fractureddistalradius.png=250x)
 
 ## 1.1 Introduction :smiley:
 
@@ -65,6 +65,7 @@ were created: sharpness, brightness, contrast, and mirror symmetry.
 
 ## 3.2 Network 
 
+![alt text](https://github.com/manhph2211/Bone-Fracture-Detection/blob/main/img.png)
 
 ### 3.3 Backbone one - Resnet
 
