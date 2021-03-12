@@ -36,16 +36,11 @@ Data augmentation and Preprocessing for bone fracture detection in Xray images :
 
 - Find more about the model by reading [this](https://arxiv.org/pdf/1506.01497.pdf)
 
+## 1.3 Methods
 
-## 1.3 Pre-processing 
-
-- For data augmentation: 
+- First, for data augmentation: 
   - Using mirroring, sharpness, brightness and contrast augmentation.
   - Don't use  shear, strain or spot noise augmentation since these could cause a normal hand image to be classified as a hand with a fracture.
-
-- 80% for training and 20% for the test
-
-## 1.4 Some methods
 
 - The object detection neural network had better results when trained only on AP images instead of AP and lateral images together
 
@@ -55,3 +50,23 @@ for images with fractures and one for hand images with no fractures.
 
 - To increase the detection accuracy, four types of image augmentation
 were created: sharpness, brightness, contrast, and mirror symmetry.
+
+
+# 2. Arm fracture detection in X-rays
+
+## 2.1 Overview
+
+- 3 main points:
+  - Preprocessing method including: Opening operation, developing pixel value transformation to enhance the contrast of img.
+
+  - New back-bone network based on feature pyramid architecture for gainning more fractual information
+ 
+  - Anchor scale reduction and tiny RoIs expansion is exploited to find more fractures.
+
+## 3.2 Network 
+
+
+### 3.3 Backbone one - Resnet
+
+- 5 statges 
+
