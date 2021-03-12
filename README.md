@@ -3,7 +3,7 @@ Data augmentation and Preprocessing for bone fracture detection in Xray images :
 
 ## 1. Distal radius fractures
 
-![alt text](https://www.gchandtherapy.com/wp-content/uploads/2017/04/fractureddistalradius.png){: style="height:36px; width:36px"}
+<img src="https://www.gchandtherapy.com/wp-content/uploads/2017/04/fractureddistalradius.png" width="900" height="400">
 
 ## 1.1 Introduction :smiley:
 
