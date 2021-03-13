@@ -71,7 +71,7 @@ were created: sharpness, brightness, contrast, and mirror symmetry.
  
   - Anchor scale reduction and tiny RoIs expansion is exploited to find more fractures.
 
-## 3.2 Preprocessing 
+## 2.2 Preprocessing 
 
 <img src="https://github.com/manhph2211/Bone-Fracture-Detection/blob/main/imgrm/preprocessing.png">
 
@@ -81,7 +81,7 @@ were created: sharpness, brightness, contrast, and mirror symmetry.
 
   - Increasing brightness - pixel transformation - Using cumulative distribution function of the normal distribution to perform gray strech on the original image - Take the maximum pixel value of main area as the mean of the normal distribution to make the transformation sensitive to the fracture area
 
-## 3.3 Network 😙
+## 2.3 Network 😙
 
 ![](https://github.com/manhph2211/Bone-Fracture-Detection/blob/main/imgrm/img.png)  ![](https://github.com/manhph2211/Bone-Fracture-Detection/blob/main/imgrm/process.png )
 
@@ -103,7 +103,7 @@ were created: sharpness, brightness, contrast, and mirror symmetry.
 
   - The feature map with fixed 7×7 spatial extent is flattened to a feature vector, which is input into two 1024-way fully connectedlayers. Finally, the regressor regresses bounding boxes,and the classifier predicts classes.
 
-## 3.4 Anchor scales reduction :smile:
+## 2.4 Anchor scales reduction :smile:
 
 - It is very important to set appropriate anchor scale for detection tasks. 
 
