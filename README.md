@@ -5,7 +5,7 @@ Data augmentation and Preprocessing for bone fracture detection in Xray images :
 
 <img src="https://www.gchandtherapy.com/wp-content/uploads/2017/04/fractureddistalradius.png" width="400" height="200">
 
-## 1.1 Introduction :smiley:
+### 1.1 Introduction :smiley:
 
 - This part is about using faster RCNN to detect distal identify and locate distal radius fractures in anteroposterior X-ray images.  (38 images - resolution of up to 1600×1600pixels for training). The result (ACC=0.96 & mAP=0.866) is significantly more accurate than the detection achieved by physicians and radiologists (only 0.7 ACC)
 
@@ -21,7 +21,7 @@ Data augmentation and Preprocessing for bone fracture detection in Xray images :
   
   - Finding the fracture’s location. 
 
-## 1.2 Faster RCNN 
+### 1.2 Faster RCNN 
 
 - Faster RCNN has 3 parts:
 
@@ -41,7 +41,7 @@ Data augmentation and Preprocessing for bone fracture detection in Xray images :
 
 - Find more about the model by reading [this](https://arxiv.org/pdf/1506.01497.pdf)
 
-## 1.3 Methods 🙂
+### 1.3 Methods 🙂
 
 - First, for data augmentation: 
 
@@ -59,9 +59,9 @@ for images with fractures and one for hand images with no fractures.
 were created: sharpness, brightness, contrast, and mirror symmetry.
 
 
-# 2. Arm fracture detection in X-rays 😞
+## 2. Arm fracture detection in X-rays 😞
 
-## 2.1 Overview
+### 2.1 Overview
 
 - 3 main points:
 
@@ -71,7 +71,7 @@ were created: sharpness, brightness, contrast, and mirror symmetry.
  
   - Anchor scale reduction and tiny RoIs expansion is exploited to find more fractures.
 
-## 2.2 Preprocessing 
+### 2.2 Preprocessing 
 
 <img src="https://github.com/manhph2211/Bone-Fracture-Detection/blob/main/imgrm/preprocessing.png">
 
@@ -81,7 +81,7 @@ were created: sharpness, brightness, contrast, and mirror symmetry.
 
   - Increasing brightness - pixel transformation - Using cumulative distribution function of the normal distribution to perform gray strech on the original image - Take the maximum pixel value of main area as the mean of the normal distribution to make the transformation sensitive to the fracture area
 
-## 2.3 Network 😙
+### 2.3 Network 😙
 
 ![](https://github.com/manhph2211/Bone-Fracture-Detection/blob/main/imgrm/img.png)  ![](https://github.com/manhph2211/Bone-Fracture-Detection/blob/main/imgrm/process.png )
 
@@ -103,7 +103,7 @@ were created: sharpness, brightness, contrast, and mirror symmetry.
 
   - The feature map with fixed 7×7 spatial extent is flattened to a feature vector, which is input into two 1024-way fully connectedlayers. Finally, the regressor regresses bounding boxes,and the classifier predicts classes.
 
-## 2.4 Anchor scales reduction :smile:
+### 2.4 Anchor scales reduction :smile:
 
 - It is very important to set appropriate anchor scale for detection tasks. 
 
