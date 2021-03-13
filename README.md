@@ -78,10 +78,18 @@ were created: sharpness, brightness, contrast, and mirror symmetry.
 - An improved two-stage R-CNN method: 
 
   - After preprocessing part, a novel backbone network: 
+  
     - Resnet - is composed 5 stages, the feature map output from last layers of each 5 stages are denoted as C1,C2,C3,C4,C5, respectively. 
+    
     - FPN - Feature Pyramid Network combines low-resolution, semantically strong features with high-resolution,semantically weak features that has rich semantics at all levels. The feature maps {C2;C3;C4;C5} are used to create the feature pyramid. C1 is not included in the pyramid due to its large memory footprint.  --> final feature maps {P2;P3;P4;P5}
-    - P2,P3,P4,P5 are resized to the same size as P4 through max-pooling and interpolation. Second, integrated features are obtained by average the rescaled {P2;P3;P4;P5}. Third, we use the embedded Gaussiann on-local attention module to refine the integratedfeatures. Fourth, the refined features are then rescaled using the same but reverse procedure to strengthen the original features {P2;P3;P4;P5}, namely element-wise adding refine features to {P2;P3;P4;P5}. Finally, the outputs{S2;S3;S4;S5;S6} are used for object detection following the same pipeline in FPN. Here, S6 is maxpooled from S5. In this new architecture, each resolution in the feature pyramid gains the same information from other resolutions,balancing the flow of information and making the features more discriminating.
+    
+    - P2,P3,P4,P5 are resized to the same size as P4 through max-pooling and interpolation. Second, integrated features are obtained by average the rescaled {P2;P3;P4;P5}. Third, we use the embedded Gaussiann on-local attention module to refine the integratedfeatures. Fourth, the refined features are then rescaled using the same but reverse procedure to strengthen the original features {P2;P3;P4;P5}, namely element-wise adding refine features to {P2;P3;P4;P5}. Finally, the outputs {S2;S3;S4;S5;S6} are used for object detection following the same pipeline in FPN. Here, S6 is maxpooled from S5. In this new architecture, each resolution in the feature pyramid gains the same information from other resolutions,balancing the flow of information and making the features more discriminating.
+    
   - Feature map (S2,S3,S4,S5,S6) with 5 differences scales are fed into Region Proposal Network, which provide object proposals at each pixel position.
-  - RPN generating 256 region of interests(RoIs). Hereafter, the receiptive field expansion is exploited to expand the tiny RoIs for the detetion of tiny fractures.
+  - RPN generating 256 region of interests(RoIs). Hereafter, the receiptive field expansion is exploited to expand the tiny RoIs for the detetion of tiny fractures.( For each RoI, if its width is less than 30 pixels, then 20 pixels are added to its width. If its width is less than 40, then 10 pixels are added to its width. This rule also applies to the length adjustment of the RoIs)
   - RoI pooling layer unifies the size of the crooped features in RoIs into a small feature map with a fixed spatial extent of 7x7
   - The feature map with fixed 7×7 spatial extent is flattened to a feature vector, which is input into two 1024-way fully connectedlayers. Finally, the regressor regresses bounding boxes,and the classifier predicts classes.
+
+## 3.4 Anchor scales reduction
+
+- It is very important to set appropriate anchor scale for detection tasks. - Experiments indicates that anchor scale with respect to feature maps {P2;P3;P4;P5;P6} is {256;128;64;32;16} is the best. Those scales guarantee more foreground RoIs for RPN training.
