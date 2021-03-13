@@ -83,7 +83,7 @@ were created: sharpness, brightness, contrast, and mirror symmetry.
 
 ## 3.3 Network 
 
-![](https://github.com/manhph2211/Bone-Fracture-Detection/blob/main/imgrm/img.png))  |  ![](https://github.com/manhph2211/Bone-Fracture-Detection/blob/main/imgrm/process.png )
+![](https://github.com/manhph2211/Bone-Fracture-Detection/blob/main/imgrm/img.png)  ![](https://github.com/manhph2211/Bone-Fracture-Detection/blob/main/imgrm/process.png )
 
 - An improved two-stage R-CNN method: 
 
