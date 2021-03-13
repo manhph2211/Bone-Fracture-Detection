@@ -1,9 +1,9 @@
-# Bone-Fracture-Detection 
+# Bone-Fracture-Detection 😟
 Data augmentation and Preprocessing for bone fracture detection in Xray images :raising_hand:
 
-## 1. Distal radius fractures
+## 1. Distal radius fractures 😢
 
-<img src="https://www.gchandtherapy.com/wp-content/uploads/2017/04/fractureddistalradius.png" width="900" height="400">
+<img src="https://www.gchandtherapy.com/wp-content/uploads/2017/04/fractureddistalradius.png" width="400" height="200">
 
 ## 1.1 Introduction :smiley:
 
@@ -36,7 +36,7 @@ Data augmentation and Preprocessing for bone fracture detection in Xray images :
 
 - Find more about the model by reading [this](https://arxiv.org/pdf/1506.01497.pdf)
 
-## 1.3 Methods
+## 1.3 Methods 🙂
 
 - First, for data augmentation: 
   - Using mirroring, sharpness, brightness and contrast augmentation.
@@ -63,11 +63,17 @@ were created: sharpness, brightness, contrast, and mirror symmetry.
  
   - Anchor scale reduction and tiny RoIs expansion is exploited to find more fractures.
 
-## 3.2 Network 
+## 3.2 Preprocessing 
 
-<img src="https://github.com/manhph2211/Bone-Fracture-Detection/blob/main/img.png" width="900" height="600">
+- 2 problems : noise, dark background:
+  - The effects of noise can be mitigated by using morphological opening operation with a 21x21 kernel is adopted to process grayscale img. Also, the main area can be identified
+  - Increasing brightness - Using cumulative distribution function of the normal distribution to perform gray strech on the original image - Take the maximum pixel value of main area as the mean of the normal distribution to make the transformation sensitive to the fracture area
 
-### 3.3 Backbone one - Resnet
+
+## 3.3 Network 
+
+<img src="https://github.com/manhph2211/Bone-Fracture-Detection/blob/main/img.png" width="500" height="300">
+
 
 - 5 statges 
 
