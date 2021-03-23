@@ -9,7 +9,7 @@ Data augmentation and Preprocessing for bone fracture detection in Xray images :
 
 - This part is about using faster RCNN to detect distal identify and locate distal radius fractures in anteroposterior X-ray images.  (38 images - resolution of up to 1600×1600pixels for training). The result (ACC=0.96 & mAP=0.866) is significantly more accurate than the detection achieved by physicians and radiologists (only 0.7 ACC)
 
-- Some challenges:
+- Some challenges: :smiley:
 
   - In many cases,the fracture’s size is small and hard to detect.
 
