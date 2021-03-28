@@ -1,0 +1,12 @@
+data_train_path = '../data/original/dataDetect_train'
+data_test_path = '../data//original/dataDetect_test'
+train_data_json='../data/train_data.json'
+test_data_json='../data/test_data.json'
+#device='cuda' if torch.cuda.is_available() else 'cpu'
+device='cuda'
+BATCH_SIZE=4
+EPOCH_N=100
+CLASS_N=2
+WIDTH=512
+HEIGHT=512
+model_save_path="./best_val.pth"
