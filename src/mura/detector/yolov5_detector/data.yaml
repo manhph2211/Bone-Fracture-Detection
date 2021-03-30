@@ -1,0 +1,8 @@
+train: "/content/drive/.shortcut-targets-by-id/1KRO0jiU_OsGlq6VUOkzTCwV8D9i7QAln/Data Augmentation-XrayImg/original/dataDetect_train/"
+val: "/content/drive/.shortcut-targets-by-id/1KRO0jiU_OsGlq6VUOkzTCwV8D9i7QAln/Data Augmentation-XrayImg/original/dataDetect_test/"
+ 
+# number of classes
+nc: 1 # here i just detect  bone-fracture
+ 
+# class names
+names: ['fracture']
