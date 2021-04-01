@@ -6,7 +6,7 @@ Faster RCNN for Detecting Bone Fracture :smile:
 
 - This implementation aims to predict bone fracture in Xray Image using Faster RCNN model.
 
-# 1. Dependencies
+# 1. Dependencies :smiley:
 
 - Torch
 - Torchvision
@@ -15,7 +15,7 @@ Faster RCNN for Detecting Bone Fracture :smile:
 
 # 2. Faster RCNN :smile:
 
-<img src="https://i.stack.imgur.com/RUJ2b.png" width="400" height="200">
+<img src="https://i.stack.imgur.com/RUJ2b.png" width="800" height="400">
 
 ## 2.1 Region Proposal Networks :smiley:
 
@@ -32,7 +32,7 @@ Faster RCNN for Detecting Bone Fracture :smile:
 - However, Due to number of windows it processed, it takes anywhere from 1.8 to 3.7 seconds (Selective Search Fast) to generate region proposal which is not good enough for a real-time object detection system.
 
 
-<img src="https://media.geeksforgeeks.org/wp-content/uploads/20200128135031/step3.PNG" width="400" height="200">
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/home/step3-660x304.PNG" width="800" height="400">
 
 ### 2.1.2 RPN of Faster RCNN, What is the difference?
 
@@ -81,7 +81,8 @@ python3 train.py
 
 # 4. References :smiley:
 
-- This implementation is strongly based on 
+- This implementation is strongly based on:  
+
  - [this paper](https://arxiv.org/pdf/1506.01497.pdf)
  - [this blog](https://www.quora.com/How-does-RPN-work-on-the-Faster-R-CNN?no_redirect=1)
  - [this blog](https://towardsdatascience.com/region-of-interest-pooling-f7c637f409af)
