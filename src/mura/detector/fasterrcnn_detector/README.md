@@ -32,7 +32,7 @@ Faster RCNN for Detecting Bone Fracture :smile:
 - However, Due to number of windows it processed, it takes anywhere from 1.8 to 3.7 seconds (Selective Search Fast) to generate region proposal which is not good enough for a real-time object detection system.
 
 
-<img src="https://media.geeksforgeeks.org/wp-content/uploads/home/step3-660x304.PNG" width="800" height="400">
+<img src="https://arthurdouillard.com/figures/selective_search1.png" width="800" height="400">
 
 ### 2.1.2 RPN of Faster RCNN, What is the difference?
 
@@ -51,7 +51,7 @@ Faster RCNN for Detecting Bone Fracture :smile:
  - ‘N’ proposals or Region of Interests from Region proposal network. Each proposal has five values, the first one indicating the index and the rest of the four are proposal coordinates. Generally, it represents the top-left and bottom-right corner of the proposal.
 
 
-## Sharing Features for RPN and Fast-RCNN :smiley:
+## 2.3 Sharing Features for RPN and Fast-RCNN :smiley:
 
 - The RPN and Fast R-CNN, are independent networks. Each of them can be trained separately. However, for Faster R-CNN it is possible to build a unified network in which the RPN and Fast R-CNN are trained at once. The core idea is that both the RPN and Fast R-CNN share the same convolutional layers.
 
