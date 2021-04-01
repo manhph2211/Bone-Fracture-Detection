@@ -34,7 +34,9 @@ Faster RCNN for Detecting Bone Fracture :smile:
 - However, Due to number of windows it processed, it takes anywhere from 1.8 to 3.7 seconds (Selective Search Fast) to generate region proposal which is not good enough for a real-time object detection system.
 
 ### 2.1.2 RPN of Faster RCNN, What is the difference?
+
 <img src='https://miro.medium.com/max/375/1*JDQw0RwmnIKeRABw3ZDI7Q.png' width="800" height="400">
+
 - Train a NN instead of Using selective search, following 3 steps:
 
   - The input image goes through a convolution network which will output a set of convlutional feature maps on the last convolutional layer(ZF Model which was an extension of AlexNet, the dimensions are 256-d and for VGG-16, it was 512-d).
@@ -50,8 +52,11 @@ Faster RCNN for Detecting Bone Fracture :smile:
 
 - The difference between RoI and max pooling only is that with any shape of input tensor, RoI always outputs the fixed size (predefined) tensor.
 
+
 ## 2.3 Non-maxima suppression
+
 <img src='https://miro.medium.com/max/2400/1*6d_D0ySg-kOvfrzIRwHIiA.png' width="800" height="400">
+
 - There would be abou t900 anchor box but we want 100 only as final region proposal. 
 - Input: A list of Proposal boxes B, corresponding confidence scores S and overlap threshold N.
 - Output: A list of filtered proposals D. 
