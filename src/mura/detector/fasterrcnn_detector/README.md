@@ -19,10 +19,11 @@ Faster RCNN for Detecting Bone Fracture :smile:
 
 ## 2.1 Region Proposal Networks :smiley:
 
-### 2.1.1 Selective Search From RCNN
+### 2.1.1 Selective Search 
 
-- One approach for localizing object is Exhaustive Search, which uses sliding window of different size... seems works but compute a lot as it searchs for object in thousands of windows even for small image size and more than that it is not efficent. Instead, Fast RCNN uses RPN which based on Selective Search algorithm which uses both Exhaustive search and segmentation.
+- One approach for localizing object is Exhaustive Search, which uses sliding window of different size... seems works but compute a lot as it searchs for object in thousands of windows even for small image size and more than that it is not efficent. Instead, RCNN & Fast RCNN uses RPN which based on Selective Search algorithm which uses both Exhaustive search and segmentation.
 
+<img src="https://arthurdouillard.com/figures/selective_search1.png" width="800" height="400">
 - Selective Search first initialize segmentation,then using Greedy Algorithm to combine similar regions to make better/larger regions, then using the segmented region proposals to generate candidate object locations - Bounding boxes. Selecsive Search in details:
 
   - From set of regions, choose two that are most similar.
@@ -30,9 +31,6 @@ Faster RCNN for Detecting Bone Fracture :smile:
   - Repeat the above steps for multiple iterations.
 
 - However, Due to number of windows it processed, it takes anywhere from 1.8 to 3.7 seconds (Selective Search Fast) to generate region proposal which is not good enough for a real-time object detection system.
-
-
-<img src="https://arthurdouillard.com/figures/selective_search1.png" width="800" height="400">
 
 ### 2.1.2 RPN of Faster RCNN, What is the difference?
 <img src='https://miro.medium.com/max/375/1*JDQw0RwmnIKeRABw3ZDI7Q.png' width="800" height="400">
@@ -44,14 +42,28 @@ Faster RCNN for Detecting Bone Fracture :smile:
 
 ## 2.2 RoI Pool - From Fast RCNN :sleepy:
 
-- Each proposal will be of a different shape. So there is a need for converting all the proposals to fixed shape as required by fully connected layers. ROI Pooling is exactly doing this before moving to the FC layers
-
+- Each proposal will be of a different shape. Remember about CRNN, handling by resizing region proposals(each is seperated before) to the same size before using transfer learning. However, feature maps cannot be resized, so RoIs is introduced to address this problem.
 - ROI pooling produces the fixed-size feature maps from non-uniform inputs by doing max-pooling on the inputs. The number of output channels is equal to the number of input channels for this layer. ROI pooling layer takes two inputs:
   - feature map obtained from a Convolutional Neural Network after multiple convolutions and pooling layers.
   - ‘N’ proposals or Region of Interests from Region proposal network. Each proposal has five values, the first one indicating the index and the rest of the four are proposal coordinates. Generally, it represents the top-left and bottom-right corner of the proposal.
 
+- The difference between RoI and max pooling only is that with any shape of input tensor, RoI always outputs the fixed size (predefined) tensor.
 
-## 2.3 Sharing Features for RPN and Fast-RCNN :smiley:
+## 2.3 Non-maxima suppression
+<img src='https://miro.medium.com/max/2400/1*6d_D0ySg-kOvfrzIRwHIiA.png' width="800" height="400">
+- There would be abou t900 anchor box but we want 100 only as final region proposal. 
+- Input: A list of Proposal boxes B, corresponding confidence scores S and overlap threshold N.
+- Output: A list of filtered proposals D. 
+- The algorithm in details:
+
+  - Select the proposal with highest confidence score, remove it from B and add it to the final proposal list D. (Initially D is empty).
+  - Now compare this proposal with all the proposals — calculate the IOU (Intersection over Union) of this proposal with every other proposal. If the IOU is greater than the threshold N, remove that proposal from B.
+  - Again take the proposal with the highest confidence from the remaining proposals in B and remove it from B and add it to D.
+  - Once again calculate the IOU of this proposal with all the proposals in B and eliminate the boxes which have high IOU than threshold.
+  - This process is repeated until there are no more proposals left in B.
+
+
+## 2.4 Sharing Features for RPN and Fast-RCNN :smiley:
 
 - The RPN and Fast R-CNN, are independent networks. Each of them can be trained separately. However, for Faster R-CNN it is possible to build a unified network in which the RPN and Fast R-CNN are trained at once. The core idea is that both the RPN and Fast R-CNN share the same convolutional layers.
 
@@ -86,3 +98,4 @@ python3 train.py
   - [this paper](https://arxiv.org/pdf/1506.01497.pdf)
   - [this blog](https://www.quora.com/How-does-RPN-work-on-the-Faster-R-CNN?no_redirect=1)
   - [this blog](https://towardsdatascience.com/region-of-interest-pooling-f7c637f409af)
+  - [this blog](https://towardsdatascience.com/non-maximum-suppression-nms-93ce178e177c)
