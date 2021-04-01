@@ -24,6 +24,7 @@ Faster RCNN for Detecting Bone Fracture :smile:
 - One approach for localizing object is Exhaustive Search, which uses sliding window of different size... seems works but compute a lot as it searchs for object in thousands of windows even for small image size and more than that it is not efficent. Instead, RCNN & Fast RCNN uses RPN which based on Selective Search algorithm which uses both Exhaustive search and segmentation.
 
 <img src="https://arthurdouillard.com/figures/selective_search1.png" width="800" height="400">
+
 - Selective Search first initialize segmentation,then using Greedy Algorithm to combine similar regions to make better/larger regions, then using the segmented region proposals to generate candidate object locations - Bounding boxes. Selecsive Search in details:
 
   - From set of regions, choose two that are most similar.
