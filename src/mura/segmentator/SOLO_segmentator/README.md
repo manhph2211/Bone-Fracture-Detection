@@ -49,6 +49,7 @@ Model uses **Focal loss** for penalty classification loss.
 The formulations of mask loss are represented as follows:
 
 ![](images/loss2.png)
+
 where, the author chooses **Dice loss** as *_metric_*:
 
 ![](images/loss3.png)
