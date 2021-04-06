@@ -1,6 +1,24 @@
 # Solo for Xray segmentation
 
-## Model
+## Table of contents
+- [Introduction](#Introduction)
+- [SOLOv1](#SOLOv1)
+- [SOLOv2](#SOLOv2)
+- [Implementation](#Implementation)
+- [Result](#Result)
+
+<a name="Introduction"></a>
+## Introduction
+**SOLO** is a novel method for instance segmentation which uses a different approach:
+
+- No anchor box is needed. :flushed:
+- No normalization is needed. :flushed:
+- No bounding box detection is needed. :flushed:
+
+Now, let's dump into it. :relieved: :relieved: :relieved:
+
+<a name="SOLOv1"></a>
+## SOLOv1
 The general architecture is showed below:
 
 ![solo](images/solo.png)
@@ -49,12 +67,53 @@ Model uses **Focal loss** for penalty classification loss.
 The formulations of mask loss are represented as follows:
 
 ![](images/loss2.png)
-
 where, the author chooses **Dice loss** as *_metric_*:
 
 ![](images/loss3.png)
 ![](images/loss4.png)
 
+<a name="SOLOv2"></a>
+## SOLOv2
+### *_Bottlenecks_* of the past version
+Compare to the version 1, the author points out some defects:
+
+- Inefficient mask representation and learning
+- Not high enough resolution for finer mask predictions
+- Slow mask NMS
+
+This version addresses all the above problems by designing lots of new techniques.
+
+### Dynamic instance segmentation
+This paper proposed a new head with some changes in head branch:
+
+![solov2](images/solov2.png)
+
+Instead of predicting the mask segmentation for each grid which occupies a huge memory and needs a lot of calculation, this model tries to
+predict **kernel** and **feature** (mask = conv_kernel(feature)).
+
+- #### Mask kernel
+  With each feature map, this model applies **CoorCov** and stack of convolution layers to make a tensor which have size SxSxD where,
+  SxS is number of grid and D indicates the weights for each grid.
+- #### Mask feature
+  The author proposes the way to make a unified and high-resolution mask feature from outputs in FPN by using convolution, group norm,
+ReLU, bilinear upsampling (like U-net). Simple :grin:
+
+### Matrix NMS
+NMS is a filter which reduce significant region proposals by keeping a region with highest score and remove a region with lower score
+and union larger than a threshold. In this hard way, it makes our model lower because of the recursion which is used to implement. To boost the 
+speed of this stage and increase the accuracy, this model employs **Matrix NMS**. This method utilizes the [Soft-NMS's](https://arxiv.org/pdf/1704.04503v2.pdf) idea
+which use decay to reduce a score instead of removing the proposal immediately. This model calculates a decay as following formula:
+
+![](images/decay1.png)
+
+![](images/decay2.png)
+
+where, s is a score corresponding each region and f can be a linear function or Gaussian function. 
+
+fantastic to [deep diving](https://towardsdatascience.com/non-maximum-suppression-nms-93ce178e177c) :blush:
+
+<a name="Implementation"></a>
 ## Implementation
 
+<a name="Result"></a>
 ## Result
