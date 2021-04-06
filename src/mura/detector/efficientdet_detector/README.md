@@ -40,6 +40,10 @@ All the implementation based on the [github](https://github.com/zylo117/Yet-Anot
 ### Prepare dataset
 I used the COCO format in my task with my custom like: ![](image/dataset.png)
 ### Training 
-Training process is in the .ipynb file.
+Training process is in the .ipynb file. I employ d1 pretrained version with some arguments' notification: batch_size = 1e-4, num_epoch = 150, optimizer = SGD, train_size = 300, val_size = 100.
 
+## Result
+After our model converge in 119th epoch, our result in the validation set is: 
+![](image/result.png)
 
+You can view our val test result in [drive](https://drive.google.com/drive/folders/1aMYegRlJfjEbG3A1e5lfU3Wkb1mMm_Yu?usp=sharing).
