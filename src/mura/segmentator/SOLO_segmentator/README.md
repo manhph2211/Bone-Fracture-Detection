@@ -133,4 +133,4 @@ Some demo we made:
 
 ![orig2](images/demo_orig2.jpeg) ![res2](images/demo_res2.jpeg)
 
-![orig3](images/demo_orig3.jpeg) ![res3](images/demo_res3.jpeg)
+![orig3](images/demo_org3.jpeg) ![res3](images/demo_res3.jpeg)
