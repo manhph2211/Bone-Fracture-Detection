@@ -38,7 +38,9 @@ important. Beautiful representation is showed in this image:![focal loss](image/
 ## Implementation
 All the implementation based on the [github](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch.git).
 ### Prepare dataset
-I used the COCO format in my task with my custom like: ![](image/dataset.png)
+I used the COCO format in my task with my custom like:
+
+![](image/dataset.png)
 ### Training 
 Training process is in the .ipynb file. I employ d1 pretrained version with some arguments' notification: batch_size = 1e-4, num_epoch = 150, optimizer = SGD, train_size = 300, val_size = 100.
 
