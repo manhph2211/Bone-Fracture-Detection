@@ -114,6 +114,23 @@ fantastic to [deep diving](https://towardsdatascience.com/non-maximum-suppressio
 
 <a name="Implementation"></a>
 ## Implementation
+Our implementation is based on this official [repo](https://github.com/aim-uofa/AdelaiDet/blob/master/configs/SOLOv2/README.md). The tutorial by [colab](https://colab.research.google.com/drive/16jcaJoc6bCFAQ96jDe2HwtXj7BMD_-m5#scrollTo=hBXeH8UXFcqU) file is very comprehense and help us a lot to custom our dataset.
+You can read our config file and .ipynb file for more detail.
 
 <a name="Result"></a>
 ## Result
+We evaluate our model by using 800 images in validation set. Our result is:
+
+![evaluate1](images/result.png)
+
+![evaluate2](images/result1.png)
+
+![evaluate3](images/result2.png)
+
+Some demo we made:
+
+![orig1](images/demo_orig1.jpeg) ![res1](images/demo_res1.jpeg)
+
+![orig2](images/demo_orig2.jpeg) ![res2](images/demo_res2.jpeg)
+
+![orig3](images/demo_orig3.jpeg) ![res3](images/demo_res3.jpeg)
