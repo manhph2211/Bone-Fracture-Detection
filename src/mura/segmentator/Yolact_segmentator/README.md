@@ -3,11 +3,9 @@
 - [Introduction](#Introduction)
 - [YOLACT: Real-time Instance Segmentation](#YOLACT)
 - [YOLACT++: Better Real-time Instance Segmentation](#YOLACT++)
-<<<<<<< HEAD
 - [Result](#RESULT)
 
-=======
->>>>>>> d02c60593e82449cd01f3404e51539ef387eae6a
+
 <a name = Introduction></a>
 ## Introduction
 A simple, fully convolutional model for real-time instance segmentation. This is our implementation based on [https://github.com/dbolya/yolact](https://github.com/dbolya/yolact) for our Xray images dataset.
