@@ -3,7 +3,7 @@
 - [Introduction](#Introduction)
 - [YOLACT: Real-time Instance Segmentation](#YOLACT)
 - [YOLACT++: Better Real-time Instance Segmentation](#YOLACT++)
-<a/ name = Introduction></a>
+<a name = Introduction></a>
 ## Introduction
 A simple, fully convolutional model for real-time instance segmentation. This is our implementation based on [https://github.com/dbolya/yolact](https://github.com/dbolya/yolact) for our Xray images dataset.
 
@@ -13,7 +13,7 @@ See the original papers:
 
 Now, let's see how it works.
 
-<a/ name = YOLACT></a>
+<a name = YOLACT></a>
 ## YOLACT: Real-time Instance Segmentation
 For the current example segmentation method, basically, an instance segmentation module is added to the two-stage target detection algorithm, just like mask-rcnn, but due to multiple repools of feature, the speed is very slow. Yolact's improvement is based on one-stage target detection algorithm.
 
@@ -46,7 +46,7 @@ The authors use that to create mask for each object.
 
 ![mask_assembly](images/mask_assembly.png)  
 
-<a/ name = YOLACT++></a>
+<a name = YOLACT++></a>
 ## YOLACT++: Better Real-time Instance Segmentation
 In addition to Yolact, the researchers introduce several other improvments that improve performance of inference time in one way or another:
 - They propose a new variant of standard non-maximum suppresion called Fast-NMS.
