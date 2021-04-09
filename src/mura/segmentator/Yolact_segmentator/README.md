@@ -3,6 +3,11 @@
 - [Introduction](#Introduction)
 - [YOLACT: Real-time Instance Segmentation](#YOLACT)
 - [YOLACT++: Better Real-time Instance Segmentation](#YOLACT++)
+<<<<<<< HEAD
+- [Result](#RESULT)
+
+=======
+>>>>>>> d02c60593e82449cd01f3404e51539ef387eae6a
 <a name = Introduction></a>
 ## Introduction
 A simple, fully convolutional model for real-time instance segmentation. This is our implementation based on [https://github.com/dbolya/yolact](https://github.com/dbolya/yolact) for our Xray images dataset.
@@ -52,3 +57,7 @@ In addition to Yolact, the researchers introduce several other improvments that 
 - They propose a new variant of standard non-maximum suppresion called Fast-NMS.
 - They introduce deformable convolutions in encoders' backbone network and a novel mask re-scoring branch.
 
+<a name = RESULT></a>
+Bellow is an example output image.
+
+![example](images/result.png)
