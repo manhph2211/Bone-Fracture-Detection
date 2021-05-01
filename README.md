@@ -6,7 +6,7 @@ Bone Fracture Detection :smile:
 # 1. Methods
 
 `Clip = 5` and `window_size=(7,7)` 
-![alt text](https://github.com/manhph2211/Bone-Fracture-Detection/blob/main/imgrm/5_7.png)
+<img src="https://github.com/manhph2211/Bone-Fracture-Detection/blob/main/imgrm/5_7.png" width="400" height="200">
 
 # 2. Result
 
