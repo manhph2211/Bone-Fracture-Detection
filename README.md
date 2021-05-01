@@ -13,7 +13,7 @@ Bone Fracture Detection :smile:
 
 | Test Case | Segmentator | Detector    | Clip | Window Size | mAP(before) | mAP(after) |
 |-----------|-------------|-------------|------|-------------|-------------|------------|
-| 1         | Mask RCNN   | Faster RCNN | 5    | 7x7         | 0.7         | 0.52       |
+| 1         | Mask RCNN 0.934   | Faster RCNN | 5    | 7x7         | 0.7         | 0.52       |
 | 2         |             |             |      |             |             |            |
 | 3         |             |             |      |             |             |            |
 | 4         |             |             |      |             |             |            |
