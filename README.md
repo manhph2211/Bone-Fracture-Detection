@@ -71,5 +71,5 @@ Bone Fracture Detection :smile:
 | 6         | Deeplabv3   | Efficientdet| 4    | 7x7         | 0.657       | 0.598      |
 | 7         | Deeplabv3   | Efficientdet| 4    | 8x8         | 0.657       | 0.589      |
 | 8         | Deeplabv3   | Efficientdet| 4    | 15x15       | 0.657       | 0.516      |
-| 9         |             |             |      |             |             |            |
+| 9         | Deeplabv3   | Efficientdet| 6    | 8x8         | 0.675       | 0.618      |
 | 10        |             |             |      |             |             |            |
