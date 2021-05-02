@@ -33,29 +33,29 @@ Bone Fracture Detection :smile:
 
 ## 2.2 E2E 😢
 
-- `FASTER RCNN - SMALL DATASET + ROBOFLOW`
+- `Faster RCNN - SMALL DATASET + ROBOFLOW - mAP 50`
 
 | Test Case | Segmentator | Detector    | Clip | Window Size | mAP(before) | mAP(after) |
 |-----------|-------------|-------------|------|-------------|-------------|------------|
 | 1         | Mask RCNN 0.934| Faster RCNN | 5    | 7x7      | 0.633       | 0.523      |
 | 2         | Mask RCNN 0.934| Faster RCNN | 5    |10x10     | 0.633       | 0.618      |
-| 3         | Mask RCNN 0.934| Faster RCNN | 5    | 15x15    | 0.633       | 0xxx       |
-| 4         | Mask RCNN 0.934| Faster RCNN | 5    | 8x8      | 0.633       | 0xxx       |
-| 5         | Mask RCNN 0.934| Faster RCNN | 10   | 20x20    | 0.633       | 0.xxx      |
+| 3         | Mask RCNN 0.934| Faster RCNN | 5    | 15x15    | 0.633       | 0.593      |
+| 4         | Mask RCNN 0.934| Faster RCNN | 5    | 8x8      | 0.633       | 0.586      |
+| 5         | Mask RCNN 0.934| Faster RCNN | 10   | 20x20    | 0.633       | 0.620      |
 
 
-
-
-- `Yolov5 - SMALL DATASET `
+- `Yolov5 - SMALL DATASET - mAP 50`
 
 | Test Case | Segmentator | Detector    | Clip | Window Size | mAP(before) | mAP(after) |
 |-----------|-------------|-------------|------|-------------|-------------|------------|
-| 1         | Yolact 0.94 | Yolov5  | 5    | 7x7      | 0.610       |  0.649     |
-| 2         | Yolact 0.94 | Yolov5  | 5    | 7x7      | 0.610       | x          |
-| 3         |             |             |      |             |             |            |
+| 1         | Yolact 0.94 | Yolov5      | 5    | 7x7         | 0.610       |  0.649     |
+| 2         | Yolact 0.94 | Yolov5      | 5    | 8x8         | 0.610       | x          |
+| 3         | Yolact 0.94 | Yolov5      | 5    | 10x10       | 0.610       | x          |
+| 4         | Yolact 0.94 | Yolov5      | 5    | 15x15       | 0.610       | x          |
+| 5         | Yolact 0.94 | Yolov5      | 5    | 15x15       | 0.610       | x          |
 
 
-- `Efficientdet - SMALL DATASET + ROBOFLOW`
+- `Efficientdet - SMALL DATASET - mAP 50`
 
 | Test Case | Segmentator | Detector    | Clip | Window Size | mAP(before) | mAP(after) |
 |-----------|-------------|-------------|------|-------------|-------------|------------|
@@ -66,5 +66,5 @@ Bone Fracture Detection :smile:
 | 6         | Deeplabv3   | Efficientdet| 4    | 7x7         | 0.657       | 0.598      |
 | 7         | Deeplabv3   | Efficientdet| 4    | 8x8         | 0.657       | 0.589      |
 | 8         | Deeplabv3   | Efficientdet| 4    | 15x15       | 0.657       | 0.516      |
-| 9         | Deeplabv3   | Efficientdet| 6    | 8x8         | 0.675       | 0.618      |
+| 9         | Deeplabv3   | Efficientdet| 6    | 8x8         | 0.657       | 0.618      |
 | 10        |             |             |      |             |             |            |
