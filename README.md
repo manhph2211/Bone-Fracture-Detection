@@ -65,11 +65,11 @@ Bone Fracture Detection :smile:
 | Test Case | Segmentator | Detector    | Clip | Window Size | mAP(before) | mAP(after) |
 |-----------|-------------|-------------|------|-------------|-------------|------------|
 | 1         | Deeplabv3   | Efficientdet| 5    | 7x7         | 0.657       | 0.645      |
-| 2         | Deeplabv3   | Efficientdet| 7    | 4x4         | 0.657       | 0.598      |
-| 3         | Deeplabv3   | Efficientdet| 5    | 4           | 0.657       | 0.536      |
-| 4         |             |             |      |             |             |            |
-| 6         |             |             |      |             |             |            |
-| 7         |             |             |      |             |             |            |
-| 8         |             |             |      |             |             |            |
+| 2         | Deeplabv3   | Efficientdet| 5    | 8x8         | 0.657       | 0.598      |
+| 3         | Deeplabv3   | Efficientdet| 5    | 10x10       | 0.657       | 0.536      |
+| 4         | Deeplabv3   | Efficientdet| 4    | 5x5         | 0.657       | 0.536      |
+| 6         | Deeplabv3   | Efficientdet| 4    | 7x7         | 0.657       | 0.598      |
+| 7         | Deeplabv3   | Efficientdet| 4    | 8x8         | 0.657       | 0.589      |
+| 8         | Deeplabv3   | Efficientdet| 4    | 15x15       | 0.657       | 0.516      |
 | 9         |             |             |      |             |             |            |
 | 10        |             |             |      |             |             |            |
