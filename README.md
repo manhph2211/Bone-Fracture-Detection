@@ -51,7 +51,7 @@ Bone Fracture Detection :smile:
 | 1         | Yolact 0.94 | Yolov5      | 5    | 7x7         | 0.610       |  0.649     |
 | 2         | Yolact 0.94 | Yolov5      | 5    | 8x8         | 0.610       | x          |
 | 3         | Yolact 0.94 | Yolov5      | 5    | 10x10       | 0.610       | x          |
-| 4         | Yolact 0.94 | Yolov5      | 5    | 15x15       | 0.610       | x          |
+| 4         | Yolact 0.94 | Yolov5      | 5    | 15x15       | 0.610       | 0.645      |
 | 5         | Yolact 0.94 | Yolov5      | 5    | 15x15       | 0.610       | x          |
 
 
