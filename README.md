@@ -19,7 +19,7 @@ Bone Fracture Detection :smile:
 | Test Case | Segmentator | mAP(50:95) |
 |-----------|-------------|------------|
 | 1         | Mask RCNN   | 0.934      |
-| 2         | Yolact       | 0.940      |
+| 2         | Yolact      | 0.940      |
 | 3         | SOLO        | 0.911      |
 | 4         | Deeplavv3   | x.xxx      |
 
@@ -38,10 +38,11 @@ Bone Fracture Detection :smile:
 | Test Case | Segmentator | Detector    | Clip | Window Size | mAP(before) | mAP(after) |
 |-----------|-------------|-------------|------|-------------|-------------|------------|
 | 1         | Mask RCNN 0.934| Faster RCNN | 5    | 7x7      | 0.633       | 0.523      |
-| 2         | Mask RCNN 0.934| Faster RCNN | 5    |10x10    | 0.633       | 0.618      |
-| 3         | Mask RCNN 0.934| Faster RCNN | 150  | 100x100  | 0.633       | 0.520      |
-| 4         | Mask RCNN 0.934|    Faster RCNN | 5      | 10x10|              |            |
-| 5         |             |             |      |             |             |            |
+| 2         | Mask RCNN 0.934| Faster RCNN | 5    |10x10     | 0.633       | 0.618      |
+| 3         | Mask RCNN 0.934| Faster RCNN | 5    | 15x15    | 0.633       | 0xxx       |
+| 4         | Mask RCNN 0.934| Faster RCNN | 5    | 8x8      | 0.633       | 0xxx       |
+| 5         | Mask RCNN 0.934| Faster RCNN | 10   | 20x20    | 0.633       | 0.xxx      |
+
 
 
 
@@ -49,16 +50,10 @@ Bone Fracture Detection :smile:
 
 | Test Case | Segmentator | Detector    | Clip | Window Size | mAP(before) | mAP(after) |
 |-----------|-------------|-------------|------|-------------|-------------|------------|
-| 1         | Yolact 0.94 | Yolov5  | 5    | 7x7      | 0.61       |  0.549     |
+| 1         | Yolact 0.94 | Yolov5  | 5    | 7x7      | 0.610       |  0.649     |
 | 2         | Yolact 0.94 | Yolov5  | 5    | 7x7      | 0.610       | x          |
 | 3         |             |             |      |             |             |            |
-| 4         |             |             |      |             |             |            |
-| 5         |             |             |      |             |             |            |
-| 6         |             |             |      |             |             |            |
-| 7         |             |             |      |             |             |            |
-| 8         |             |             |      |             |             |            |
-| 9         |             |             |      |             |             |            |
-| 10        |             |             |      |             |             |            |
+
 
 - `Efficientdet - SMALL DATASET + ROBOFLOW`
 
