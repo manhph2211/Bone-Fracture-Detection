@@ -1,0 +1,2778 @@
+{
+    "../original+flip+rotate(45)/humerus_patient02916_image1_hori_180.png": [
+        [
+            0.593112,
+            0.655273,
+            0.242347,
+            0.263672
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_3673_image1_hori_135.png": [
+        [
+            0.646223,
+            0.486905,
+            0.090571,
+            0.090571
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09233_image1_hori_315.png": [
+        [
+            0.465785,
+            0.459076,
+            0.159669,
+            0.159669
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_3673_image1_hori_225.png": [
+        [
+            0.486905,
+            0.353777,
+            0.090571,
+            0.090571
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient00234_image3_hori_180.png": [
+        [
+            0.547244,
+            0.512695,
+            0.370079,
+            0.087891
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_3673_image1_hori_45.png": [
+        [
+            0.513095,
+            0.646223,
+            0.090571,
+            0.090571
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient00234_image3_hori_270.png": [
+        [
+            0.512695,
+            0.452756,
+            0.087891,
+            0.370079
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient00234_image3_hori_315.png": [
+        [
+            0.500784,
+            0.480402,
+            0.144244,
+            0.144244
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09233_image1_hori_45.png": [
+        [
+            0.459076,
+            0.534215,
+            0.159669,
+            0.159669
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09233_image1_hori_225.png": [
+        [
+            0.540924,
+            0.465785,
+            0.159669,
+            0.159669
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_3673_image1_hori_90.png": [
+        [
+            0.642578,
+            0.650617,
+            0.0625,
+            0.125926
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09233_image1_hori_180.png": [
+        [
+            0.619658,
+            0.504883,
+            0.188034,
+            0.146484
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient00234_image3_hori_225.png": [
+        [
+            0.519598,
+            0.500784,
+            0.144244,
+            0.144244
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09233_image1_hori_270.png": [
+        [
+            0.504883,
+            0.380342,
+            0.146484,
+            0.188034
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09233_image1_hori_90.png": [
+        [
+            0.495117,
+            0.619658,
+            0.146484,
+            0.188034
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient00234_image3_hori_45.png": [
+        [
+            0.480402,
+            0.499216,
+            0.144244,
+            0.144244
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09233_image1_hori_135.png": [
+        [
+            0.534215,
+            0.540924,
+            0.159669,
+            0.159669
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_3673_image1_hori_180.png": [
+        [
+            0.650617,
+            0.357422,
+            0.125926,
+            0.0625
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient00234_image3_hori_135.png": [
+        [
+            0.499216,
+            0.519598,
+            0.144244,
+            0.144244
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient00234_image3_hori_90.png": [
+        [
+            0.487305,
+            0.547244,
+            0.087891,
+            0.370079
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_3673_image1_hori_315.png": [
+        [
+            0.353777,
+            0.513095,
+            0.090571,
+            0.090571
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_3673_image1_hori_270.png": [
+        [
+            0.357422,
+            0.349383,
+            0.0625,
+            0.125926
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03229_image3_hori_315.png": [
+        [
+            0.520187,
+            0.311766,
+            0.093844,
+            0.093844
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09277_image2_hori_225.png": [
+        [
+            0.371279,
+            0.498284,
+            0.102977,
+            0.102977
+        ],
+        [
+            0.360409,
+            0.364986,
+            0.083526,
+            0.083526
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09277_image2_hori_270.png": [
+        [
+            0.388672,
+            0.652893,
+            0.09375,
+            0.115702
+        ],
+        [
+            0.265625,
+            0.50551,
+            0.078125,
+            0.090909
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09277_image2_hori_45.png": [
+        [
+            0.628721,
+            0.501716,
+            0.102977,
+            0.102977
+        ],
+        [
+            0.639591,
+            0.635014,
+            0.083526,
+            0.083526
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03229_image3_hori_90.png": [
+        [
+            0.313477,
+            0.690123,
+            0.087891,
+            0.101235
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03229_image3_hori_180.png": [
+        [
+            0.690123,
+            0.686523,
+            0.101235,
+            0.087891
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03229_image3_hori_225.png": [
+        [
+            0.688234,
+            0.520187,
+            0.093844,
+            0.093844
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09277_image2_hori_180.png": [
+        [
+            0.347107,
+            0.388672,
+            0.115702,
+            0.09375
+        ],
+        [
+            0.49449,
+            0.265625,
+            0.090909,
+            0.078125
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03229_image3_hori_45.png": [
+        [
+            0.311766,
+            0.479813,
+            0.093844,
+            0.093844
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09277_image2_hori_90.png": [
+        [
+            0.611328,
+            0.347107,
+            0.09375,
+            0.115702
+        ],
+        [
+            0.734375,
+            0.49449,
+            0.078125,
+            0.090909
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03229_image3_hori_135.png": [
+        [
+            0.479813,
+            0.688234,
+            0.093844,
+            0.093844
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09277_image2_hori_135.png": [
+        [
+            0.501716,
+            0.371279,
+            0.102977,
+            0.102977
+        ],
+        [
+            0.635014,
+            0.360409,
+            0.083526,
+            0.083526
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09277_image2_hori_315.png": [
+        [
+            0.498284,
+            0.628721,
+            0.102977,
+            0.102977
+        ],
+        [
+            0.364986,
+            0.639591,
+            0.083526,
+            0.083526
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03229_image3_hori_270.png": [
+        [
+            0.686523,
+            0.309877,
+            0.087891,
+            0.101235
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09260_image2_hori_45.png": [
+        [
+            0.501609,
+            0.525215,
+            0.086913,
+            0.086913
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09260_image2_hori_225.png": [
+        [
+            0.498391,
+            0.474785,
+            0.086913,
+            0.086913
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09260_image2_hori_135.png": [
+        [
+            0.525215,
+            0.498391,
+            0.086913,
+            0.086913
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09260_image2_hori_90.png": [
+        [
+            0.524414,
+            0.52619,
+            0.080078,
+            0.095238
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09260_image2_hori_315.png": [
+        [
+            0.474785,
+            0.501609,
+            0.086913,
+            0.086913
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09260_image2_hori_270.png": [
+        [
+            0.475586,
+            0.47381,
+            0.080078,
+            0.095238
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09260_image2_hori_180.png": [
+        [
+            0.52619,
+            0.475586,
+            0.095238,
+            0.080078
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09101_image2_hori_90.png": [
+        [
+            0.700195,
+            0.810714,
+            0.072266,
+            0.121429
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient00271_image3_hori_315.png": [
+        [
+            0.602916,
+            0.37048,
+            0.151223,
+            0.151223
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09101_image2_hori_270.png": [
+        [
+            0.299805,
+            0.189286,
+            0.072266,
+            0.121429
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09101_image2_hori_135.png": [
+        [
+            0.750009,
+            0.530044,
+            0.094424,
+            0.094424
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient00271_image3_hori_225.png": [
+        [
+            0.62952,
+            0.602916,
+            0.151223,
+            0.151223
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09101_image2_hori_225.png": [
+        [
+            0.530044,
+            0.249991,
+            0.094424,
+            0.094424
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09101_image2_hori_180.png": [
+        [
+            0.810714,
+            0.299805,
+            0.121429,
+            0.072266
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient00271_image3_hori_135.png": [
+        [
+            0.397084,
+            0.62952,
+            0.151223,
+            0.151223
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09101_image2_hori_315.png": [
+        [
+            0.249991,
+            0.469956,
+            0.094424,
+            0.094424
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09101_image2_hori_45.png": [
+        [
+            0.469956,
+            0.750009,
+            0.094424,
+            0.094424
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient00271_image3_hori_180.png": [
+        [
+            0.546798,
+            0.662109,
+            0.187192,
+            0.136719
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient00271_image3_hori_270.png": [
+        [
+            0.662109,
+            0.453202,
+            0.136719,
+            0.187192
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient00271_image3_hori_90.png": [
+        [
+            0.337891,
+            0.546798,
+            0.136719,
+            0.187192
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient00271_image3_hori_45.png": [
+        [
+            0.37048,
+            0.397084,
+            0.151223,
+            0.151223
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient01400_image1_hori_90.png": [
+        [
+            0.653941,
+            0.598633,
+            0.14532,
+            0.119141
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient01400_image1_hori_45.png": [
+        [
+            0.513074,
+            0.623117,
+            0.130744,
+            0.130744
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient01400_image1_hori_135.png": [
+        [
+            0.623117,
+            0.486926,
+            0.130744,
+            0.130744
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient01400_image1_hori_225.png": [
+        [
+            0.486926,
+            0.376883,
+            0.130744,
+            0.130744
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient01400_image1_hori_315.png": [
+        [
+            0.376883,
+            0.513074,
+            0.130744,
+            0.130744
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient01400_image1_hori_270.png": [
+        [
+            0.346059,
+            0.401367,
+            0.14532,
+            0.119141
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient01400_image1_hori_180.png": [
+        [
+            0.598633,
+            0.346059,
+            0.119141,
+            0.14532
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient00293_image3_hori_225.png": [
+        [
+            0.343779,
+            0.330075,
+            0.080851,
+            0.080851
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient00293_image3_hori_270.png": [
+        [
+            0.267578,
+            0.477169,
+            0.058594,
+            0.13242
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient00293_image3_hori_45.png": [
+        [
+            0.656221,
+            0.669925,
+            0.080851,
+            0.080851
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient00293_image3_hori_315.png": [
+        [
+            0.330075,
+            0.656221,
+            0.080851,
+            0.080851
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient00293_image3_hori_135.png": [
+        [
+            0.669925,
+            0.343779,
+            0.080851,
+            0.080851
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient00293_image3_hori_90.png": [
+        [
+            0.732422,
+            0.522831,
+            0.058594,
+            0.13242
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient00293_image3_hori_180.png": [
+        [
+            0.522831,
+            0.267578,
+            0.13242,
+            0.058594
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02870_image1_hori_45.png": [
+        [
+            0.503755,
+            0.497318,
+            0.135198,
+            0.135198
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02870_image1_hori_135.png": [
+        [
+            0.497318,
+            0.496245,
+            0.135198,
+            0.135198
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09282_image1_hori_225.png": [
+        [
+            0.491416,
+            0.506438,
+            0.1073,
+            0.1073
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02870_image1_hori_315.png": [
+        [
+            0.502682,
+            0.503755,
+            0.135198,
+            0.135198
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09282_image1_hori_315.png": [
+        [
+            0.506438,
+            0.508584,
+            0.1073,
+            0.1073
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09282_image1_hori_45.png": [
+        [
+            0.508584,
+            0.493562,
+            0.1073,
+            0.1073
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02870_image1_hori_90.png": [
+        [
+            0.500977,
+            0.492874,
+            0.154297,
+            0.111639
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09282_image1_hori_135.png": [
+        [
+            0.493562,
+            0.491416,
+            0.1073,
+            0.1073
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09282_image1_hori_270.png": [
+        [
+            0.498047,
+            0.516667,
+            0.101562,
+            0.114286
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02870_image1_hori_270.png": [
+        [
+            0.499023,
+            0.507126,
+            0.154297,
+            0.111639
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09282_image1_hori_90.png": [
+        [
+            0.501953,
+            0.483333,
+            0.101562,
+            0.114286
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09282_image1_hori_180.png": [
+        [
+            0.483333,
+            0.498047,
+            0.114286,
+            0.101562
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02870_image1_hori_180.png": [
+        [
+            0.492874,
+            0.499023,
+            0.111639,
+            0.154297
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02870_image1_hori_225.png": [
+        [
+            0.496245,
+            0.502682,
+            0.135198,
+            0.135198
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10101_image2_hori_315.png": [
+        [
+            0.625296,
+            0.455329,
+            0.108953,
+            0.108953
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient00238_image1_hori_90.png": [
+        [
+            0.726562,
+            0.626728,
+            0.109375,
+            0.138249
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient00238_image1_hori_180.png": [
+        [
+            0.626728,
+            0.273438,
+            0.138249,
+            0.109375
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10101_image2_hori_90.png": [
+        [
+            0.347656,
+            0.408867,
+            0.125,
+            0.08867
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient00238_image1_hori_270.png": [
+        [
+            0.273438,
+            0.373272,
+            0.109375,
+            0.138249
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10101_image2_hori_270.png": [
+        [
+            0.652344,
+            0.591133,
+            0.125,
+            0.08867
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient00238_image1_hori_45.png": [
+        [
+            0.621513,
+            0.697029,
+            0.11808,
+            0.11808
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient00238_image1_hori_135.png": [
+        [
+            0.697029,
+            0.378487,
+            0.11808,
+            0.11808
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient00238_image1_hori_315.png": [
+        [
+            0.302971,
+            0.621513,
+            0.11808,
+            0.11808
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient00238_image1_hori_225.png": [
+        [
+            0.378487,
+            0.302971,
+            0.11808,
+            0.11808
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10101_image2_hori_135.png": [
+        [
+            0.374704,
+            0.544671,
+            0.108953,
+            0.108953
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10101_image2_hori_225.png": [
+        [
+            0.544671,
+            0.625296,
+            0.108953,
+            0.108953
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10101_image2_hori_45.png": [
+        [
+            0.455329,
+            0.374704,
+            0.108953,
+            0.108953
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10101_image2_hori_180.png": [
+        [
+            0.408867,
+            0.652344,
+            0.08867,
+            0.125
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09277_image1_hori_180.png": [
+        [
+            0.567901,
+            0.49707,
+            0.148148,
+            0.087891
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09277_image1_hori_225.png": [
+        [
+            0.524527,
+            0.471883,
+            0.111271,
+            0.111271
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09277_image1_hori_135.png": [
+        [
+            0.528117,
+            0.524527,
+            0.111271,
+            0.111271
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09277_image1_hori_45.png": [
+        [
+            0.475473,
+            0.528117,
+            0.111271,
+            0.111271
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09277_image1_hori_90.png": [
+        [
+            0.50293,
+            0.567901,
+            0.087891,
+            0.148148
+        ]
+    ],
+    "../original+flip+rotate(45)/wrist_patient06901_image1_hori_315.png": [
+        [
+            0.570383,
+            0.417613,
+            0.113486,
+            0.113486
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02895_image2_hori_45.png": [
+        [
+            0.528323,
+            0.542973,
+            0.203147,
+            0.203147
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02895_image2_hori_135.png": [
+        [
+            0.542973,
+            0.471677,
+            0.203147,
+            0.203147
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09277_image1_hori_270.png": [
+        [
+            0.49707,
+            0.432099,
+            0.087891,
+            0.148148
+        ]
+    ],
+    "../original+flip+rotate(45)/wrist_patient06901_image1_hori_180.png": [
+        [
+            0.51358,
+            0.636719,
+            0.14321,
+            0.089844
+        ]
+    ],
+    "../original+flip+rotate(45)/wrist_patient06901_image1_hori_225.png": [
+        [
+            0.582387,
+            0.570383,
+            0.113486,
+            0.113486
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02895_image2_hori_225.png": [
+        [
+            0.471677,
+            0.457027,
+            0.203147,
+            0.203147
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02895_image2_hori_90.png": [
+        [
+            0.571289,
+            0.514648,
+            0.216797,
+            0.189453
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02895_image2_hori_270.png": [
+        [
+            0.428711,
+            0.485352,
+            0.216797,
+            0.189453
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09277_image1_hori_315.png": [
+        [
+            0.471883,
+            0.475473,
+            0.111271,
+            0.111271
+        ]
+    ],
+    "../original+flip+rotate(45)/wrist_patient06901_image1_hori_90.png": [
+        [
+            0.363281,
+            0.51358,
+            0.089844,
+            0.14321
+        ]
+    ],
+    "../original+flip+rotate(45)/wrist_patient06901_image1_hori_270.png": [
+        [
+            0.636719,
+            0.48642,
+            0.089844,
+            0.14321
+        ]
+    ],
+    "../original+flip+rotate(45)/wrist_patient06901_image1_hori_135.png": [
+        [
+            0.429617,
+            0.582387,
+            0.113486,
+            0.113486
+        ]
+    ],
+    "../original+flip+rotate(45)/wrist_patient06901_image1_hori_45.png": [
+        [
+            0.417613,
+            0.429617,
+            0.113486,
+            0.113486
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02895_image2_hori_180.png": [
+        [
+            0.514648,
+            0.428711,
+            0.189453,
+            0.216797
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03754_image3_hori_45.png": [
+        [
+            0.655852,
+            0.66884,
+            0.155852,
+            0.155852
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03754_image3_hori_135.png": [
+        [
+            0.66884,
+            0.344148,
+            0.155852,
+            0.155852
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03754_image3_hori_315.png": [
+        [
+            0.33116,
+            0.655852,
+            0.155852,
+            0.155852
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03754_image3_hori_270.png": [
+        [
+            0.280273,
+            0.475275,
+            0.087891,
+            0.346154
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03754_image3_hori_180.png": [
+        [
+            0.524725,
+            0.280273,
+            0.346154,
+            0.087891
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02895_image2_hori_315.png": [
+        [
+            0.457027,
+            0.528323,
+            0.203147,
+            0.203147
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03754_image3_hori_225.png": [
+        [
+            0.344148,
+            0.33116,
+            0.155852,
+            0.155852
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03754_image3_hori_90.png": [
+        [
+            0.719727,
+            0.524725,
+            0.087891,
+            0.346154
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10039_image2_hori_315.png": [
+        [
+            0.489138,
+            0.346848,
+            0.092326,
+            0.092326
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10039_image2_hori_180.png": [
+        [
+            0.684597,
+            0.62793,
+            0.07335,
+            0.107422
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10039_image2_hori_90.png": [
+        [
+            0.37207,
+            0.684597,
+            0.107422,
+            0.07335
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10039_image2_hori_270.png": [
+        [
+            0.62793,
+            0.315403,
+            0.107422,
+            0.07335
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10039_image2_hori_225.png": [
+        [
+            0.653152,
+            0.489138,
+            0.092326,
+            0.092326
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10039_image2_hori_135.png": [
+        [
+            0.510862,
+            0.653152,
+            0.092326,
+            0.092326
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10039_image2_hori_45.png": [
+        [
+            0.346848,
+            0.510862,
+            0.092326,
+            0.092326
+        ]
+    ],
+    "../original+flip+rotate(45)/wrist_patient06830_image1_hori_135.png": [
+        [
+            0.254855,
+            0.624207,
+            0.132923,
+            0.132923
+        ]
+    ],
+    "../original+flip+rotate(45)/wrist_patient06830_image1_hori_225.png": [
+        [
+            0.624207,
+            0.745145,
+            0.132923,
+            0.132923
+        ]
+    ],
+    "../original+flip+rotate(45)/wrist_patient06830_image1_hori_45.png": [
+        [
+            0.375793,
+            0.254855,
+            0.132923,
+            0.132923
+        ]
+    ],
+    "../original+flip+rotate(45)/wrist_patient06830_image1_hori_270.png": [
+        [
+            0.831055,
+            0.6367,
+            0.138672,
+            0.125616
+        ]
+    ],
+    "../original+flip+rotate(45)/wrist_patient06830_image1_hori_315.png": [
+        [
+            0.745145,
+            0.375793,
+            0.132923,
+            0.132923
+        ]
+    ],
+    "../original+flip+rotate(45)/wrist_patient06830_image1_hori_90.png": [
+        [
+            0.168945,
+            0.3633,
+            0.138672,
+            0.125616
+        ]
+    ],
+    "../original+flip+rotate(45)/wrist_patient06830_image1_hori_180.png": [
+        [
+            0.3633,
+            0.831055,
+            0.125616,
+            0.138672
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10115_image3_hori_90.png": [
+        [
+            0.787109,
+            0.660099,
+            0.074219,
+            0.137931
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10115_image3_hori_180.png": [
+        [
+            0.660099,
+            0.212891,
+            0.137931,
+            0.074219
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10115_image3_hori_45.png": [
+        [
+            0.589342,
+            0.730981,
+            0.102416,
+            0.102416
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10115_image3_hori_315.png": [
+        [
+            0.269019,
+            0.589342,
+            0.102416,
+            0.102416
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10115_image3_hori_270.png": [
+        [
+            0.212891,
+            0.339901,
+            0.074219,
+            0.137931
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10115_image3_hori_135.png": [
+        [
+            0.730981,
+            0.410658,
+            0.102416,
+            0.102416
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10115_image3_hori_225.png": [
+        [
+            0.410658,
+            0.269019,
+            0.102416,
+            0.102416
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02185_image2_hori_315.png": [
+        [
+            0.415792,
+            0.580625,
+            0.161249,
+            0.161249
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02185_image2_hori_225.png": [
+        [
+            0.419375,
+            0.415792,
+            0.161249,
+            0.161249
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02185_image2_hori_180.png": [
+        [
+            0.504601,
+            0.365234,
+            0.187117,
+            0.144531
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02185_image2_hori_45.png": [
+        [
+            0.580625,
+            0.584208,
+            0.161249,
+            0.161249
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02185_image2_hori_135.png": [
+        [
+            0.584208,
+            0.419375,
+            0.161249,
+            0.161249
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02185_image2_hori_270.png": [
+        [
+            0.365234,
+            0.495399,
+            0.144531,
+            0.187117
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02185_image2_hori_90.png": [
+        [
+            0.634766,
+            0.504601,
+            0.144531,
+            0.187117
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02750_image2_hori_45.png": [
+        [
+            0.384116,
+            0.508584,
+            0.283272,
+            0.283272
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02750_image2_hori_315.png": [
+        [
+            0.491416,
+            0.384116,
+            0.283272,
+            0.283272
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02835_image2_hori_135.png": [
+        [
+            0.659685,
+            0.500488,
+            0.17873,
+            0.17873
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02835_image2_hori_90.png": [
+        [
+            0.65918,
+            0.660156,
+            0.197266,
+            0.160156
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02750_image2_hori_135.png": [
+        [
+            0.508584,
+            0.615884,
+            0.283272,
+            0.283272
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02835_image2_hori_45.png": [
+        [
+            0.499512,
+            0.659685,
+            0.17873,
+            0.17873
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02750_image2_hori_180.png": [
+        [
+            0.613281,
+            0.619048,
+            0.289062,
+            0.27619
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02750_image2_hori_90.png": [
+        [
+            0.380952,
+            0.613281,
+            0.27619,
+            0.289062
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02750_image2_hori_225.png": [
+        [
+            0.615884,
+            0.491416,
+            0.283272,
+            0.283272
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02750_image2_hori_270.png": [
+        [
+            0.619048,
+            0.386719,
+            0.27619,
+            0.289062
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02835_image2_hori_270.png": [
+        [
+            0.34082,
+            0.339844,
+            0.197266,
+            0.160156
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03732_image2_hori_270.png": [
+        [
+            0.30957,
+            0.645349,
+            0.087891,
+            0.27907
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02835_image2_hori_225.png": [
+        [
+            0.500488,
+            0.340315,
+            0.17873,
+            0.17873
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03732_image2_hori_135.png": [
+        [
+            0.606139,
+            0.320661,
+            0.136151,
+            0.136151
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02835_image2_hori_180.png": [
+        [
+            0.660156,
+            0.34082,
+            0.160156,
+            0.197266
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03732_image2_hori_315.png": [
+        [
+            0.393861,
+            0.679339,
+            0.136151,
+            0.136151
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03732_image2_hori_180.png": [
+        [
+            0.354651,
+            0.30957,
+            0.27907,
+            0.087891
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02835_image2_hori_315.png": [
+        [
+            0.340315,
+            0.499512,
+            0.17873,
+            0.17873
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10115_image1_hori_45.png": [
+        [
+            0.575723,
+            0.668333,
+            0.096968,
+            0.096968
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03732_image2_hori_225.png": [
+        [
+            0.320661,
+            0.393861,
+            0.136151,
+            0.136151
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03732_image2_hori_45.png": [
+        [
+            0.679339,
+            0.606139,
+            0.136151,
+            0.136151
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03732_image2_hori_90.png": [
+        [
+            0.69043,
+            0.354651,
+            0.087891,
+            0.27907
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10115_image1_hori_270.png": [
+        [
+            0.28125,
+            0.39532,
+            0.078125,
+            0.12069
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10115_image1_hori_135.png": [
+        [
+            0.668333,
+            0.424277,
+            0.096968,
+            0.096968
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10115_image1_hori_315.png": [
+        [
+            0.331667,
+            0.575723,
+            0.096968,
+            0.096968
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_3688_image2_hori_90.png": [
+        [
+            0.620117,
+            0.506329,
+            0.119141,
+            0.227848
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10115_image1_hori_90.png": [
+        [
+            0.71875,
+            0.60468,
+            0.078125,
+            0.12069
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10115_image1_hori_225.png": [
+        [
+            0.424277,
+            0.331667,
+            0.096968,
+            0.096968
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10115_image1_hori_180.png": [
+        [
+            0.60468,
+            0.28125,
+            0.12069,
+            0.078125
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_3688_image2_hori_45.png": [
+        [
+            0.590444,
+            0.593434,
+            0.145009,
+            0.145009
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_3688_image2_hori_315.png": [
+        [
+            0.406566,
+            0.590444,
+            0.145009,
+            0.145009
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_3688_image2_hori_135.png": [
+        [
+            0.593434,
+            0.409556,
+            0.145009,
+            0.145009
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03758_image1_hori_135.png": [
+        [
+            0.562111,
+            0.45154,
+            0.144698,
+            0.144698
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03758_image1_hori_315.png": [
+        [
+            0.437889,
+            0.54846,
+            0.144698,
+            0.144698
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03758_image1_hori_90.png": [
+        [
+            0.579102,
+            0.522624,
+            0.080078,
+            0.294118
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09088_image2_hori_315.png": [
+        [
+            0.475321,
+            0.56438,
+            0.12876,
+            0.12876
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_3688_image2_hori_180.png": [
+        [
+            0.506329,
+            0.379883,
+            0.227848,
+            0.119141
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09088_image2_hori_90.png": [
+        [
+            0.59881,
+            0.463867,
+            0.169048,
+            0.095703
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03758_image1_hori_45.png": [
+        [
+            0.54846,
+            0.562111,
+            0.144698,
+            0.144698
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_3688_image2_hori_270.png": [
+        [
+            0.379883,
+            0.493671,
+            0.119141,
+            0.227848
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09088_image2_hori_225.png": [
+        [
+            0.43562,
+            0.475321,
+            0.12876,
+            0.12876
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03758_image1_hori_180.png": [
+        [
+            0.522624,
+            0.420898,
+            0.294118,
+            0.080078
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09088_image2_hori_180.png": [
+        [
+            0.463867,
+            0.40119,
+            0.095703,
+            0.169048
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_3688_image2_hori_225.png": [
+        [
+            0.409556,
+            0.406566,
+            0.145009,
+            0.145009
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03758_image1_hori_270.png": [
+        [
+            0.420898,
+            0.477376,
+            0.080078,
+            0.294118
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09088_image2_hori_135.png": [
+        [
+            0.524679,
+            0.43562,
+            0.12876,
+            0.12876
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09088_image2_hori_45.png": [
+        [
+            0.56438,
+            0.524679,
+            0.12876,
+            0.12876
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03758_image1_hori_225.png": [
+        [
+            0.45154,
+            0.437889,
+            0.144698,
+            0.144698
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09088_image2_hori_270.png": [
+        [
+            0.40119,
+            0.536133,
+            0.169048,
+            0.095703
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02758_image2_hori_225.png": [
+        [
+            0.374459,
+            0.486051,
+            0.133052,
+            0.133052
+        ],
+        [
+            0.492489,
+            0.595497,
+            0.16095,
+            0.16095
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02758_image2_hori_180.png": [
+        [
+            0.37619,
+            0.373047,
+            0.128571,
+            0.136719
+        ],
+        [
+            0.385714,
+            0.580078,
+            0.161905,
+            0.160156
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02758_image2_hori_315.png": [
+        [
+            0.486051,
+            0.625541,
+            0.133052,
+            0.133052
+        ],
+        [
+            0.595497,
+            0.507511,
+            0.16095,
+            0.16095
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02758_image2_hori_270.png": [
+        [
+            0.373047,
+            0.62381,
+            0.136719,
+            0.128571
+        ],
+        [
+            0.580078,
+            0.614286,
+            0.160156,
+            0.161905
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02758_image2_hori_135.png": [
+        [
+            0.513949,
+            0.374459,
+            0.133052,
+            0.133052
+        ],
+        [
+            0.404503,
+            0.492489,
+            0.16095,
+            0.16095
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02758_image2_hori_90.png": [
+        [
+            0.626953,
+            0.37619,
+            0.136719,
+            0.128571
+        ],
+        [
+            0.419922,
+            0.385714,
+            0.160156,
+            0.161905
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02758_image2_hori_45.png": [
+        [
+            0.625541,
+            0.513949,
+            0.133052,
+            0.133052
+        ],
+        [
+            0.507511,
+            0.404503,
+            0.16095,
+            0.16095
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient09999_image3_hori_180.png": [
+        [
+            0.381773,
+            0.37793,
+            0.08867,
+            0.080078
+        ],
+        [
+            0.480296,
+            0.387695,
+            0.103448,
+            0.134766
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient09999_image3_hori_45.png": [
+        [
+            0.620393,
+            0.515798,
+            0.083894,
+            0.083894
+        ],
+        [
+            0.571364,
+            0.553932,
+            0.120938,
+            0.120938
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient09999_image3_hori_135.png": [
+        [
+            0.515798,
+            0.379607,
+            0.083894,
+            0.083894
+        ],
+        [
+            0.553932,
+            0.428636,
+            0.120938,
+            0.120938
+        ]
+    ],
+    "../original+flip+rotate(45)/wrist_patient06826_image1_hori_270.png": [
+        [
+            0.521484,
+            0.565401,
+            0.089844,
+            0.320675
+        ]
+    ],
+    "../original+flip+rotate(45)/wrist_patient06826_image1_hori_45.png": [
+        [
+            0.506015,
+            0.464578,
+            0.163076,
+            0.163076
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient09999_image3_hori_270.png": [
+        [
+            0.37793,
+            0.618227,
+            0.080078,
+            0.08867
+        ],
+        [
+            0.387695,
+            0.519704,
+            0.134766,
+            0.103448
+        ]
+    ],
+    "../original+flip+rotate(45)/wrist_patient06826_image1_hori_315.png": [
+        [
+            0.535422,
+            0.506015,
+            0.163076,
+            0.163076
+        ]
+    ],
+    "../original+flip+rotate(45)/wrist_patient06826_image1_hori_90.png": [
+        [
+            0.478516,
+            0.434599,
+            0.089844,
+            0.320675
+        ]
+    ],
+    "../original+flip+rotate(45)/wrist_patient06826_image1_hori_225.png": [
+        [
+            0.493985,
+            0.535422,
+            0.163076,
+            0.163076
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient09999_image3_hori_315.png": [
+        [
+            0.484202,
+            0.620393,
+            0.083894,
+            0.083894
+        ],
+        [
+            0.446068,
+            0.571364,
+            0.120938,
+            0.120938
+        ]
+    ],
+    "../original+flip+rotate(45)/wrist_patient06826_image1_hori_180.png": [
+        [
+            0.434599,
+            0.521484,
+            0.320675,
+            0.089844
+        ]
+    ],
+    "../original+flip+rotate(45)/wrist_patient06826_image1_hori_135.png": [
+        [
+            0.464578,
+            0.493985,
+            0.163076,
+            0.163076
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient09999_image3_hori_90.png": [
+        [
+            0.62207,
+            0.381773,
+            0.080078,
+            0.08867
+        ],
+        [
+            0.612305,
+            0.480296,
+            0.134766,
+            0.103448
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient09999_image3_hori_225.png": [
+        [
+            0.379607,
+            0.484202,
+            0.083894,
+            0.083894
+        ],
+        [
+            0.428636,
+            0.446068,
+            0.120938,
+            0.120938
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient06732_image2_hori_45.png": [
+        [
+            0.358906,
+            0.657437,
+            0.123117,
+            0.123117
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient06732_image2_hori_135.png": [
+        [
+            0.657437,
+            0.641094,
+            0.123117,
+            0.123117
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient06732_image2_hori_90.png": [
+        [
+            0.518473,
+            0.767578,
+            0.135468,
+            0.113281
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09149_image2_hori_45.png": [
+        [
+            0.523425,
+            0.574633,
+            0.127475,
+            0.127475
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09204_image1_hori_315.png": [
+        [
+            0.596968,
+            0.538134,
+            0.11767,
+            0.11767
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient06732_image2_hori_270.png": [
+        [
+            0.481527,
+            0.232422,
+            0.135468,
+            0.113281
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09204_image1_hori_90.png": [
+        [
+            0.447266,
+            0.347291,
+            0.136719,
+            0.093596
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09204_image1_hori_180.png": [
+        [
+            0.347291,
+            0.552734,
+            0.093596,
+            0.136719
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09149_image2_hori_90.png": [
+        [
+            0.610837,
+            0.545898,
+            0.128079,
+            0.126953
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09204_image1_hori_225.png": [
+        [
+            0.461866,
+            0.596968,
+            0.11767,
+            0.11767
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09204_image1_hori_45.png": [
+        [
+            0.538134,
+            0.403032,
+            0.11767,
+            0.11767
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient06732_image2_hori_225.png": [
+        [
+            0.641094,
+            0.342563,
+            0.123117,
+            0.123117
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09204_image1_hori_135.png": [
+        [
+            0.403032,
+            0.461866,
+            0.11767,
+            0.11767
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient06732_image2_hori_180.png": [
+        [
+            0.767578,
+            0.481527,
+            0.113281,
+            0.135468
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient06732_image2_hori_315.png": [
+        [
+            0.342563,
+            0.358906,
+            0.123117,
+            0.123117
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09204_image1_hori_270.png": [
+        [
+            0.552734,
+            0.652709,
+            0.136719,
+            0.093596
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09149_image2_hori_135.png": [
+        [
+            0.574633,
+            0.476575,
+            0.127475,
+            0.127475
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09149_image2_hori_270.png": [
+        [
+            0.389163,
+            0.454102,
+            0.128079,
+            0.126953
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09144_image1_hori_90.png": [
+        [
+            0.57381,
+            0.663086,
+            0.17619,
+            0.107422
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09144_image1_hori_225.png": [
+        [
+            0.556332,
+            0.377142,
+            0.138417,
+            0.138417
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09149_image2_hori_180.png": [
+        [
+            0.545898,
+            0.389163,
+            0.126953,
+            0.128079
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09144_image1_hori_315.png": [
+        [
+            0.377142,
+            0.443668,
+            0.138417,
+            0.138417
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09149_image2_hori_225.png": [
+        [
+            0.476575,
+            0.425367,
+            0.127475,
+            0.127475
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09144_image1_hori_135.png": [
+        [
+            0.622858,
+            0.556332,
+            0.138417,
+            0.138417
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09144_image1_hori_180.png": [
+        [
+            0.663086,
+            0.42619,
+            0.107422,
+            0.17619
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09149_image2_hori_315.png": [
+        [
+            0.425367,
+            0.523425,
+            0.127475,
+            0.127475
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09144_image1_hori_270.png": [
+        [
+            0.42619,
+            0.336914,
+            0.17619,
+            0.107422
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09144_image1_hori_45.png": [
+        [
+            0.443668,
+            0.622858,
+            0.138417,
+            0.138417
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09249_image1_hori_270.png": [
+        [
+            0.470703,
+            0.464286,
+            0.074219,
+            0.130542
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09249_image1_hori_135.png": [
+        [
+            0.532141,
+            0.499455,
+            0.099147,
+            0.099147
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09249_image1_hori_90.png": [
+        [
+            0.529297,
+            0.535714,
+            0.074219,
+            0.130542
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09249_image1_hori_180.png": [
+        [
+            0.535714,
+            0.470703,
+            0.130542,
+            0.074219
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09249_image1_hori_315.png": [
+        [
+            0.467859,
+            0.500545,
+            0.099147,
+            0.099147
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09249_image1_hori_45.png": [
+        [
+            0.500545,
+            0.532141,
+            0.099147,
+            0.099147
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09249_image1_hori_225.png": [
+        [
+            0.499455,
+            0.467859,
+            0.099147,
+            0.099147
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03754_image2_hori_270.png": [
+        [
+            0.255859,
+            0.559896,
+            0.082031,
+            0.296875
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03754_image2_hori_90.png": [
+        [
+            0.744141,
+            0.440104,
+            0.082031,
+            0.296875
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03754_image2_hori_180.png": [
+        [
+            0.440104,
+            0.255859,
+            0.296875,
+            0.082031
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03754_image2_hori_45.png": [
+        [
+            0.694205,
+            0.661482,
+            0.140852,
+            0.140852
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03754_image2_hori_225.png": [
+        [
+            0.305795,
+            0.338518,
+            0.140852,
+            0.140852
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03754_image2_hori_315.png": [
+        [
+            0.338518,
+            0.694205,
+            0.140852,
+            0.140852
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03754_image2_hori_135.png": [
+        [
+            0.661482,
+            0.305795,
+            0.140852,
+            0.140852
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02861_image1_hori_315.png": [
+        [
+            0.473712,
+            0.48015,
+            0.159877,
+            0.159877
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02861_image1_hori_180.png": [
+        [
+            0.55119,
+            0.494141,
+            0.164286,
+            0.15625
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02861_image1_hori_225.png": [
+        [
+            0.51985,
+            0.473712,
+            0.159877,
+            0.159877
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02861_image1_hori_135.png": [
+        [
+            0.526288,
+            0.51985,
+            0.159877,
+            0.159877
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02861_image1_hori_270.png": [
+        [
+            0.494141,
+            0.44881,
+            0.15625,
+            0.164286
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02861_image1_hori_90.png": [
+        [
+            0.505859,
+            0.55119,
+            0.15625,
+            0.164286
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02861_image1_hori_45.png": [
+        [
+            0.48015,
+            0.526288,
+            0.159877,
+            0.159877
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09157_image2_hori_90.png": [
+        [
+            0.751953,
+            0.658867,
+            0.078125,
+            0.096059
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09157_image2_hori_135.png": [
+        [
+            0.710825,
+            0.429725,
+            0.086073,
+            0.086073
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09157_image2_hori_270.png": [
+        [
+            0.248047,
+            0.341133,
+            0.078125,
+            0.096059
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09157_image2_hori_45.png": [
+        [
+            0.570275,
+            0.710825,
+            0.086073,
+            0.086073
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09157_image2_hori_180.png": [
+        [
+            0.658867,
+            0.248047,
+            0.096059,
+            0.078125
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09157_image2_hori_315.png": [
+        [
+            0.289175,
+            0.570275,
+            0.086073,
+            0.086073
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09157_image2_hori_225.png": [
+        [
+            0.429725,
+            0.289175,
+            0.086073,
+            0.086073
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_3688_image3_hori_270.png": [
+        [
+            0.426758,
+            0.613208,
+            0.130859,
+            0.207547
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02835_image3_hori_270.png": [
+        [
+            0.65332,
+            0.879175,
+            0.224609,
+            0.13556
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02835_image3_hori_135.png": [
+        [
+            0.233732,
+            0.387706,
+            0.180454,
+            0.180454
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_3688_image3_hori_135.png": [
+        [
+            0.52909,
+            0.417206,
+            0.149179,
+            0.149179
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10039_image1_hori_270.png": [
+        [
+            0.637695,
+            0.373479,
+            0.119141,
+            0.065693
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02835_image3_hori_315.png": [
+        [
+            0.766268,
+            0.612294,
+            0.180454,
+            0.180454
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10039_image1_hori_45.png": [
+        [
+            0.367146,
+            0.479936,
+            0.095438,
+            0.095438
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02835_image3_hori_180.png": [
+        [
+            0.120825,
+            0.65332,
+            0.13556,
+            0.224609
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_3688_image3_hori_45.png": [
+        [
+            0.582794,
+            0.52909,
+            0.149179,
+            0.149179
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_3688_image3_hori_225.png": [
+        [
+            0.417206,
+            0.47091,
+            0.149179,
+            0.149179
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10039_image1_hori_180.png": [
+        [
+            0.626521,
+            0.637695,
+            0.065693,
+            0.119141
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10039_image1_hori_135.png": [
+        [
+            0.479936,
+            0.632854,
+            0.095438,
+            0.095438
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10039_image1_hori_315.png": [
+        [
+            0.520064,
+            0.367146,
+            0.095438,
+            0.095438
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02835_image3_hori_90.png": [
+        [
+            0.34668,
+            0.120825,
+            0.224609,
+            0.13556
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02835_image3_hori_45.png": [
+        [
+            0.612294,
+            0.233732,
+            0.180454,
+            0.180454
+        ]
+    ],
+    "../original+flip+rotate(45)/humerus_patient02835_image3_hori_225.png": [
+        [
+            0.387706,
+            0.766268,
+            0.180454,
+            0.180454
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10039_image1_hori_90.png": [
+        [
+            0.362305,
+            0.626521,
+            0.119141,
+            0.065693
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10039_image1_hori_225.png": [
+        [
+            0.632854,
+            0.520064,
+            0.095438,
+            0.095438
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_3688_image3_hori_180.png": [
+        [
+            0.386792,
+            0.426758,
+            0.207547,
+            0.130859
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_3688_image3_hori_90.png": [
+        [
+            0.573242,
+            0.386792,
+            0.130859,
+            0.207547
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_3688_image3_hori_315.png": [
+        [
+            0.47091,
+            0.582794,
+            0.149179,
+            0.149179
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03754_image1_hori_180.png": [
+        [
+            0.612676,
+            0.299805,
+            0.201878,
+            0.080078
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03754_image1_hori_90.png": [
+        [
+            0.700195,
+            0.612676,
+            0.080078,
+            0.201878
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03754_image1_hori_225.png": [
+        [
+            0.391586,
+            0.325295,
+            0.11601,
+            0.11601
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03754_image1_hori_45.png": [
+        [
+            0.608414,
+            0.674705,
+            0.11601,
+            0.11601
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03754_image1_hori_315.png": [
+        [
+            0.325295,
+            0.608414,
+            0.11601,
+            0.11601
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03754_image1_hori_270.png": [
+        [
+            0.299805,
+            0.387324,
+            0.080078,
+            0.201878
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03754_image1_hori_135.png": [
+        [
+            0.674705,
+            0.391586,
+            0.11601,
+            0.11601
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10013_image1_hori_135.png": [
+        [
+            0.534865,
+            0.561014,
+            0.084984,
+            0.084984
+        ],
+        [
+            0.602416,
+            0.584984,
+            0.095879,
+            0.095879
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10013_image1_hori_315.png": [
+        [
+            0.465135,
+            0.438986,
+            0.084984,
+            0.084984
+        ],
+        [
+            0.397584,
+            0.415016,
+            0.095879,
+            0.095879
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10013_image1_hori_225.png": [
+        [
+            0.561014,
+            0.465135,
+            0.084984,
+            0.084984
+        ],
+        [
+            0.584984,
+            0.397584,
+            0.095879,
+            0.095879
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10013_image1_hori_90.png": [
+        [
+            0.476562,
+            0.608374,
+            0.0625,
+            0.1133
+        ],
+        [
+            0.515625,
+            0.711823,
+            0.09375,
+            0.098522
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10013_image1_hori_45.png": [
+        [
+            0.438986,
+            0.534865,
+            0.084984,
+            0.084984
+        ],
+        [
+            0.415016,
+            0.602416,
+            0.095879,
+            0.095879
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10013_image1_hori_270.png": [
+        [
+            0.523438,
+            0.391626,
+            0.0625,
+            0.1133
+        ],
+        [
+            0.484375,
+            0.288177,
+            0.09375,
+            0.098522
+        ]
+    ],
+    "../original+flip+rotate(45)/hand_patient10013_image1_hori_180.png": [
+        [
+            0.608374,
+            0.523438,
+            0.1133,
+            0.0625
+        ],
+        [
+            0.711823,
+            0.484375,
+            0.098522,
+            0.09375
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09240_image3_hori_45.png": [
+        [
+            0.401048,
+            0.468442,
+            0.112324,
+            0.112324
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09240_image3_hori_135.png": [
+        [
+            0.468442,
+            0.598952,
+            0.112324,
+            0.112324
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09240_image3_hori_180.png": [
+        [
+            0.574292,
+            0.619141,
+            0.110849,
+            0.113281
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09240_image3_hori_225.png": [
+        [
+            0.598952,
+            0.531558,
+            0.112324,
+            0.112324
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09240_image3_hori_90.png": [
+        [
+            0.380859,
+            0.574292,
+            0.113281,
+            0.110849
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09240_image3_hori_270.png": [
+        [
+            0.619141,
+            0.425708,
+            0.113281,
+            0.110849
+        ]
+    ],
+    "../original+flip+rotate(45)/forearm_patient09240_image3_hori_315.png": [
+        [
+            0.531558,
+            0.401048,
+            0.112324,
+            0.112324
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03800_image4_hori_45.png": [
+        [
+            0.386514,
+            0.41925,
+            0.118942,
+            0.118942
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03779_image3_hori_225.png": [
+        [
+            0.245158,
+            0.340643,
+            0.104518,
+            0.104518
+        ]
+    ],
+    "../original+flip+rotate(45)/finger_patient03800_image4_hori_315.png": [
+        [
+            0.58075,
+            0.386514,
+            0.118942,
+            0.118942
+        ]
+    ]
+}
