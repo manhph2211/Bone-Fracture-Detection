@@ -1,11 +1,11 @@
 Bone Fracture Detection :smile:
+=====
 
-
-- `Clip = 5` and `window_size=(7,7)` 
+`Clip = 5` and `window_size=(7,7)` 
 
 <img src="https://github.com/manhph2211/Bone-Fracture-Detection/blob/main/imgrm/5_7.png" width="600" height="300">
 
-1. Preprocessing 
+# 1. Preprocessing 
 
 
 - `Segmetator` : 
@@ -18,14 +18,13 @@ Bone Fracture Detection :smile:
 | 4         | Deeplavv3   | x.xxx      |
 
 
-
-2. Detector
-
-
-2.1 Data Augmentation
+# 2. Detector
 
 
-2.1.1 Faster RCNN - MMdetection
+## 2.1 Data Augmentation
+
+
+### 2.1.1 Faster RCNN - MMdetection
 
 ```
 
@@ -73,7 +72,7 @@ test_pipeline = [
 
 ```
 
-2.2 Results - Large Dataset
+## 2.2 Results - Large Dataset
 
 | Test Case | Segmentator | Detector    | Clip | Window Size | mAP(before) | mAP(after) |
 |-----------|-------------|-------------|------|-------------|-------------|------------|
