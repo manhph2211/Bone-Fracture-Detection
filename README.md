@@ -79,6 +79,23 @@ test_pipeline = [
 - Horizontal flipping (default p = 0.5) 
 - Propose in the original paper: scale jittering with the range of scale is [1.0, 2.0]
 
+### 2.1.3 Yolov5
+
+- Photometric Distortion:
+    - image HSV-Hue augmentation
+    - image HSV-Saturation augmentation
+    - image HSV-Value augmentation
+- Geometric Distortion: 
+    - image rotation 
+    - image translation
+    - image scale
+    - image sheer
+    - image perspective
+    -  image flip up-down, left-right
+- Mosaic Data Augmentation
+- MixUp
+
+You can get more information about the hyperparameters [here](https://github.com/ultralytics/yolov5/issues/607).
 
 ## 2.2 Results - Large Dataset
 
