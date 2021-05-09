@@ -99,7 +99,7 @@ test_pipeline = [
     - image scale
     - image sheer
     - image perspective
-    -  image flip up-down, left-right
+    - image flip up-down, left-right
 - Mosaic Data Augmentation
 - MixUp
 
