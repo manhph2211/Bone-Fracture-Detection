@@ -15,7 +15,7 @@ Bone Fracture Detection :smile:
 | 1         | Mask RCNN   | 0.934      |
 | 2         | Yolact      | 0.940      |
 | 3         | SOLO        | 0.911      |
-| 4         | Deeplavv3   | x.xxx      |
+| 4         | Deeplabv3   | x.xxx      |
 
 
 # 2. Detector
@@ -78,5 +78,5 @@ test_pipeline = [
 |-----------|-------------|-------------|------|-------------|-------------|------------|
 | 1         | Yolact 0.94 | Faster RCNN | 5    | 7x7         | 0.677       |  0.70      |
 | 2         | Yolact 0.94 | EfficientDet| 5    | 7x7         | x.xxx       |  x         |
-| 3         | Yolact 0.94 | Yolov5      | 5    | 7x7         | x.xxx       |  x         |
+| 3         | Yolact 0.94 | Yolov5      | 5    | 7x7         | 0.788       |  0.723     |
 |
