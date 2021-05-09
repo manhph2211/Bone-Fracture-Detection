@@ -26,7 +26,7 @@ Bone Fracture Detection :smile:
 | Test Case | Segmentator | Detector    | Clip | Window Size | mAP(before) | mAP(after) |
 |-----------|-------------|-------------|------|-------------|-------------|------------|
 | 1         | Yolact 0.94 | Faster RCNN | 5    | 7x7         | 0.677       |  0.70      |
-| 2         | Yolact 0.94 | EfficientDet| 5    | 7x7         | 0.537       |  0.56      |
+| 2         | Yolact 0.94 | EfficientDet| 5    | 7x7         | 0.637       |  0.565     |
 | 3         | Yolact 0.94 | Yolov5      | 5    | 7x7         | 0.788       |  0.723     |
 
 
