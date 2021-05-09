@@ -72,11 +72,18 @@ test_pipeline = [
 
 ```
 
+### 2.1.2 EfficientDet 
+
+- Resize (default = 512)
+- Normalize image with mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]
+- Propose in the original paper: horizontal flipping and scale jittering with the range of scale is [1.0, 2.0]
+
+
 ## 2.2 Results - Large Dataset
 
 | Test Case | Segmentator | Detector    | Clip | Window Size | mAP(before) | mAP(after) |
 |-----------|-------------|-------------|------|-------------|-------------|------------|
 | 1         | Yolact 0.94 | Faster RCNN | 5    | 7x7         | 0.677       |  0.70      |
-| 2         | Yolact 0.94 | EfficientDet| 5    | 7x7         | x.xxx       |  x         |
+| 2         | Yolact 0.94 | EfficientDet| 5    | 7x7         | 0.537       |  0.56      |
 | 3         | Yolact 0.94 | Yolov5      | 5    | 7x7         | 0.788       |  0.723     |
 |
