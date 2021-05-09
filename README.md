@@ -74,9 +74,10 @@ test_pipeline = [
 
 ### 2.1.2 EfficientDet 
 
-- Resize (default = 512)
+- Resize (default size = 512)
 - Normalize image with mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]
-- Propose in the original paper: horizontal flipping and scale jittering with the range of scale is [1.0, 2.0]
+- Horizontal flipping (default p = 0.5) 
+- Propose in the original paper: scale jittering with the range of scale is [1.0, 2.0]
 
 
 ## 2.2 Results - Large Dataset
