@@ -33,8 +33,7 @@ Bone Fracture Detection :smile:
 ## 2.2 Data Augmentation
 
 ### 2.2.1 Faster RCNN - MMdetection
-
-- 
+ 
 ```
 
 img_norm_cfg = dict(
