@@ -1,107 +1,110 @@
-Faster RCNN for Detecting Bone Fracture :smile:
-=====
+# Bone-Fracture-Detection 😟
+Data augmentation and Preprocessing for bone fracture detection in Xray images :raising_hand:
+
+## 1. Distal radius fractures 😢
+
+<img src="https://www.gchandtherapy.com/wp-content/uploads/2017/04/fractureddistalradius.png" width="400" height="200">
+
+### 1.1 Introduction :smiley:
+
+- This part is about using faster RCNN to detect distal identify and locate distal radius fractures in anteroposterior X-ray images.  (38 images - resolution of up to 1600×1600pixels for training). The result (ACC=0.96 & mAP=0.866) is significantly more accurate than the detection achieved by physicians and radiologists (only 0.7 ACC)
+
+- Some challenges: :smiley:
+
+  - In many cases,the fracture’s size is small and hard to detect.
+
+  - The fractures have a wide range of different shapes
+
+- The advantage of Faster R-CNN is that it can handle high-resolution images. Also, Faster R-CNN can be trained to a high accuracy in detecting objects with a small number of images. Two clear tasks:
+
+  - Classifying if there is a fracture in the distal radius. 
+  
+  - Finding the fracture’s location. 
+
+### 1.2 Faster RCNN 
+
+- Faster RCNN has 3 parts:
+
+  -  A convolutional deep neural network for classification and generating a feature map. 
+
+  -  A regional proposal network, generating region proposals.
+
+  -  A regressor, finding by regression and additional convolutional layers, the precise location of each object and its classification.
+
+![alt text](https://www.researchgate.net/profile/Zhipeng-Deng-2/publication/324903264/figure/fig2/AS:640145124499471@1529633899620/The-architecture-of-Faster-R-CNN.png)
+
+- Base VGG16 containing 16 layers including 3x3 convolution layers, 2x2 pooling layers and fully connected layers with over 144 million parameters.
+
+- At each window location (using a sliding window NxN), up to 9 anchors with different aspect ratios and scales give region proposals. 
+
+- The RPN keeps anchors that either has the highest intersection over union (IOU) with the ground truth box or anchors that have IOU overlap of at least 70% with any positive ground truth.
+
+- Find more about the model by reading [this](https://arxiv.org/pdf/1506.01497.pdf)
+
+### 1.3 Methods 🙂
+
+- First, for data augmentation: 
+
+  - Using mirroring, sharpness, brightness and contrast augmentation.
+
+  - Don't use  shear, strain or spot noise augmentation since these could cause a normal hand image to be classified as a hand with a fracture.
+
+- The object detection neural network had better results when trained only on AP images instead of AP and lateral images together
+
+- To increase the classification accuracy of finding if fractures appear or
+not in the X-ray image the X-ray images were tagged with two labels one
+for images with fractures and one for hand images with no fractures.
+
+- To increase the detection accuracy, four types of image augmentation
+were created: sharpness, brightness, contrast, and mirror symmetry.
 
 
-# 0. Introduction :smiley:
+## 2. Arm fracture detection in X-rays 😞
 
-- This implementation aims to predict bone fracture in Xray Image using Faster RCNN model.
+### 2.1 Overview
 
-# 1. Dependencies :smiley:
+- 3 main points:
 
-- Torch
-- Torchvision
-- Opencv-python
-- Tqdm
+  - Preprocessing method including: Opening operation, developing pixel value transformation to enhance the contrast of img.
 
-# 2. Faster RCNN :smile:
+  - New back-bone network based on feature pyramid architecture for gainning more fractual information
+ 
+  - Anchor scale reduction and tiny RoIs expansion is exploited to find more fractures.
 
-<img src="https://i.stack.imgur.com/RUJ2b.png" width="800" height="400">
+### 2.2 Preprocessing 
 
-## 2.1 Region Proposal Networks :smiley:
+<img src="https://github.com/manhph2211/Bone-Fracture-Detection/blob/main/imgrm/preprocessing.png">
 
-### 2.1.1 Selective Search 
+- 2 problems : noise, dark background:
 
-- One approach for localizing object is Exhaustive Search, which uses sliding window of different size... seems works but compute a lot as it searchs for object in thousands of windows even for small image size and more than that it is not efficent. Instead, RCNN & Fast RCNN uses RPN which based on Selective Search algorithm which uses both Exhaustive search and segmentation.
+  - The effects of noise can be mitigated by using morphological opening operation with a 21x21 kernel is adopted to process grayscale img. Also, the main area can be identified
 
-<img src="https://arthurdouillard.com/figures/selective_search1.png" width="800" height="400">
+  - Increasing brightness - pixel transformation - Using cumulative distribution function of the normal distribution to perform gray strech on the original image - Take the maximum pixel value of main area as the mean of the normal distribution to make the transformation sensitive to the fracture area
 
-- Selective Search first initialize segmentation,then using Greedy Algorithm to combine similar regions to make better/larger regions, then using the segmented region proposals to generate candidate object locations - Bounding boxes. Selecsive Search in details:
+### 2.3 Network 😙
 
-  - From set of regions, choose two that are most similar.
-  - Combine them into a single, larger region.
-  - Repeat the above steps for multiple iterations.
+![](https://github.com/manhph2211/Bone-Fracture-Detection/blob/main/imgrm/img.png)  ![](https://github.com/manhph2211/Bone-Fracture-Detection/blob/main/imgrm/process.png )
 
-- However, Due to number of windows it processed, it takes anywhere from 1.8 to 3.7 seconds (Selective Search Fast) to generate region proposal which is not good enough for a real-time object detection system.
+- An improved two-stage R-CNN method: 
 
-### 2.1.2 RPN of Faster RCNN, What is the difference?
+  - After preprocessing part, a novel backbone network: 
+  
+    - Resnet - is composed 5 stages, the feature map output from last layers of each 5 stages are denoted as C1,C2,C3,C4,C5, respectively. 
+    
+    - FPN - Feature Pyramid Network combines low-resolution, semantically strong features with high-resolution,semantically weak features that has rich semantics at all levels. The feature maps {C2;C3;C4;C5} are used to create the feature pyramid. C1 is not included in the pyramid due to its large memory footprint.  --> final feature maps {P2;P3;P4;P5} 😓
+    
+    - P2,P3,P4,P5 are resized to the same size as P4 through max-pooling and interpolation. Second, integrated features are obtained by average the rescaled {P2;P3;P4;P5}. Third, we use the embedded Gaussiann on-local attention module to refine the integratedfeatures. Fourth, the refined features are then rescaled using the same but reverse procedure to strengthen the original features {P2;P3;P4;P5}, namely element-wise adding refine features to {P2;P3;P4;P5}. Finally, the outputs {S2;S3;S4;S5;S6} are used for object detection following the same pipeline in FPN. Here, S6 is maxpooled from S5. In this new architecture, each resolution in the feature pyramid gains the same information from other resolutions,balancing the flow of information and making the features more discriminating. 😢
+    
+  - Feature map (S2,S3,S4,S5,S6) with 5 differences scales are fed into Region Proposal Network, which provide object proposals at each pixel position.
 
-<img src='https://miro.medium.com/max/375/1*JDQw0RwmnIKeRABw3ZDI7Q.png' width="800" height="400">
+  - RPN generating 256 region of interests(RoIs). Hereafter, the receiptive field expansion is exploited to expand the tiny RoIs for the detetion of tiny fractures.( For each RoI, if its width is less than 30 pixels, then 20 pixels are added to its width. If its width is less than 40, then 10 pixels are added to its width. This rule also applies to the length adjustment of the RoIs)
 
-- Train a NN instead of Using selective search, following 3 steps:
+  - RoI pooling layer unifies the size of the crooped features in RoIs into a small feature map with a fixed spatial extent of 7x7
 
-  - The input image goes through a convolution network which will output a set of convlutional feature maps on the last convolutional layer(ZF Model which was an extension of AlexNet, the dimensions are 256-d and for VGG-16, it was 512-d).
-  - Then a sliding window is run spatially on these feature maps. The size of sliding window is  n×n(3x3 for example). For each sliding window, a set of 9 anchors are generated which all have the same center  (xa,ya)  but with 3 different aspect ratios and 3 different scales. Anchors are labeled positive or negative based on IOU(mormaly positive if IOU>0.7 and Negative if IOU<0.3)
-  - Finally, the  3×3  spatial features extracted from those convolution feature maps (shown above within red box) are fed to a smaller network which has two tasks: classification (cls) and regression (reg). 
+  - The feature map with fixed 7×7 spatial extent is flattened to a feature vector, which is input into two 1024-way fully connectedlayers. Finally, the regressor regresses bounding boxes,and the classifier predicts classes.
 
-## 2.2 RoI Pool - From Fast RCNN :sleepy:
+### 2.4 Anchor scales reduction :smile:
 
-- Each proposal will be of a different shape. Remember about CRNN, handling by resizing region proposals(each is seperated before) to the same size before using transfer learning. However, feature maps cannot be resized, so RoIs is introduced to address this problem.
-- ROI pooling produces the fixed-size feature maps from non-uniform inputs by doing max-pooling on the inputs. The number of output channels is equal to the number of input channels for this layer. ROI pooling layer takes two inputs:
-  - feature map obtained from a Convolutional Neural Network after multiple convolutions and pooling layers.
-  - ‘N’ proposals or Region of Interests from Region proposal network. Each proposal has five values, the first one indicating the index and the rest of the four are proposal coordinates. Generally, it represents the top-left and bottom-right corner of the proposal.
+- It is very important to set appropriate anchor scale for detection tasks. 
 
-- The difference between RoI and max pooling only is that with any shape of input tensor, RoI always outputs the fixed size (predefined) tensor.
-
-
-## 2.3 Non-maxima suppression
-
-<img src='https://miro.medium.com/max/2400/1*6d_D0ySg-kOvfrzIRwHIiA.png' width="800" height="400">
-
-- There would be abou t900 anchor box but we want 100 only as final region proposal. 
-- Input: A list of Proposal boxes B, corresponding confidence scores S and overlap threshold N.
-- Output: A list of filtered proposals D. 
-- The algorithm in details:
-
-  - Select the proposal with highest confidence score, remove it from B and add it to the final proposal list D. (Initially D is empty).
-  - Now compare this proposal with all the proposals — calculate the IOU (Intersection over Union) of this proposal with every other proposal. If the IOU is greater than the threshold N, remove that proposal from B.
-  - Again take the proposal with the highest confidence from the remaining proposals in B and remove it from B and add it to D.
-  - Once again calculate the IOU of this proposal with all the proposals in B and eliminate the boxes which have high IOU than threshold.
-  - This process is repeated until there are no more proposals left in B.
-
-
-## 2.4 Sharing Features for RPN and Fast-RCNN :smiley:
-
-- The RPN and Fast R-CNN, are independent networks. Each of them can be trained separately. However, for Faster R-CNN it is possible to build a unified network in which the RPN and Fast R-CNN are trained at once. The core idea is that both the RPN and Fast R-CNN share the same convolutional layers.
-
-- The method is called alternating training:
-  - First, train the RPN . This network is initialized with an ImageNet-pre-trained model and fine-tuned end-to-end for the region proposal task.
-  - Train a separate detection network by Fast R-CNN using the proposals generated by the step-1 RPN. This detection network is also initialized by the ImageNet-pre-trained model. At this point the two networks do not share convolutional layers
-  - Use the detector network to initialize RPN training but fix the shared convolutional layers and only fine-tune the layers unique to RPN. Now the two networks
-share convolutional layers
-  - Finally, keeping the shared convolutional layers fixed, then fine-tunning the unique layers of Fast R-CNN. As such, both networks share the same convolutional layers and form a unified network
-
-# 3. Usage :smiley:
-
-## 3.1 train
-
-- Make sure you're in `fasterrcnn_detector` folder. Then run:
-
-```
-python3 utils.py
-python3 train.py
-
-```
-
-## 3.2 Inference :smiley:
-
-- Just try `python3 predict.py`
-
-
-# 4. References :smiley:
-
-- This implementation is strongly based on:  
-
-  - [this paper](https://arxiv.org/pdf/1506.01497.pdf)
-  - [this blog](https://www.quora.com/How-does-RPN-work-on-the-Faster-R-CNN?no_redirect=1)
-  - [this blog](https://towardsdatascience.com/region-of-interest-pooling-f7c637f409af)
-  - [this blog](https://towardsdatascience.com/non-maximum-suppression-nms-93ce178e177c)
+- Experiments indicates that anchor scale with respect to feature maps {P2;P3;P4;P5;P6} is {256;128;64;32;16} is the best. Those scales guarantee more foreground RoIs for RPN training.
